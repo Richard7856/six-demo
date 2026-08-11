@@ -50,6 +50,40 @@ export const SEED: StudioState = {
     claims: ["Di que SIX", "Aquí sí hay", "Tu vecino favorito"],
   },
 
+  // Reglas que aplican en todas las zonas. Cada zona añade las suyas abajo.
+  //
+  // TODAS arrancan sin validar a propósito: las redacté yo a partir de cómo se
+  // regula la publicidad de alcohol en México, NO vienen del equipo legal de
+  // Six. Suenan plausibles y son específicas — por eso hay que marcarlas, para
+  // que nadie las lea como derecho vigente. Se validan desde /legal.
+  legal: [
+    {
+      id: "lg-menores",
+      text: "La publicidad de alcohol no puede dirigirse a menores de 18 años ni mostrarlos en la pieza",
+      validated: false,
+    },
+    {
+      id: "lg-conduccion",
+      text: "No asociar el consumo con conducir ni con vehículos",
+      validated: false,
+    },
+    {
+      id: "lg-leyenda",
+      text: "Toda pieza lleva visible la leyenda de consumo responsable y la marca +18",
+      validated: false,
+    },
+    {
+      id: "lg-exceso",
+      text: "No mostrar consumo excesivo ni presentar el alcohol como vía al éxito social, laboral o sexual",
+      validated: false,
+    },
+    {
+      id: "lg-precios",
+      text: "Precios y promociones con vigencia y condiciones visibles",
+      validated: false,
+    },
+  ],
+
   zones: [
     {
       id: "mx-norte",
@@ -71,11 +105,9 @@ export const SEED: StudioState = {
         tiktok: "@tiendassixoficial",
         facebook: "Tiendas SIX",
       },
-      regulatory: [
-        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
-        "No asociar consumo con conducción",
-        "Precios y promociones con vigencia y condiciones visibles",
-      ],
+      // Sin reglas propias: hereda las cinco globales y nada más. Es el caso
+      // que enseña que la herencia funciona.
+      regulatory: [],
       overrides: {},
     },
     {
@@ -99,9 +131,11 @@ export const SEED: StudioState = {
         facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
-        "Respetar ley seca en jornadas electorales",
-        "Precios y promociones con vigencia y condiciones visibles",
+        {
+          id: "mx-valle-leyseca",
+          text: "Respetar la ley seca en jornadas electorales",
+          validated: false,
+        },
       ],
       overrides: {
         voice: {
@@ -130,9 +164,11 @@ export const SEED: StudioState = {
         facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
-        "No mostrar consumo en vía pública",
-        "Precios y promociones con vigencia y condiciones visibles",
+        {
+          id: "mx-occidente-viapublica",
+          text: "No mostrar consumo en vía pública",
+          validated: false,
+        },
       ],
       overrides: {
         colors: { accent: "#FF6B00" },
@@ -154,9 +190,11 @@ export const SEED: StudioState = {
         facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
-        "No asociar consumo con maquinaria ni jornada laboral",
-        "Precios y promociones con vigencia y condiciones visibles",
+        {
+          id: "mx-bajio-maquinaria",
+          text: "No asociar el consumo con maquinaria ni con la jornada laboral",
+          validated: false,
+        },
       ],
       overrides: {
         positioning:
@@ -183,9 +221,11 @@ export const SEED: StudioState = {
         facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
-        "No asociar consumo con actividades acuáticas ni conducción",
-        "Precios y promociones con vigencia y condiciones visibles",
+        {
+          id: "mx-sureste-acuaticas",
+          text: "No asociar el consumo con actividades acuáticas ni náuticas",
+          validated: false,
+        },
       ],
       overrides: {
         colors: { accent: "#00A8C2" },

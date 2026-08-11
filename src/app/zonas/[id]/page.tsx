@@ -6,6 +6,8 @@ import { useStudio } from "@/lib/store";
 import { resolveBrand } from "@/lib/resolve";
 import { CreativePreview } from "@/components/CreativePreview";
 import { ColorField, Field, ListField, PageHeader, Section } from "@/components/ui";
+import { LegalRules } from "@/components/LegalRules";
+import { resolveLegal } from "@/lib/legal";
 import { ArrowLeft, Sparkles, Trash } from "@/components/icons";
 import { NETWORKS } from "@/lib/networks";
 import type { BrandOverrides, Palette, Voice } from "@/lib/types";
@@ -191,13 +193,21 @@ export default function ZoneEditor() {
                 })}
               </div>
             </Field>
-            <ListField
-              label="Restricciones legales"
-              hint="Validar con el equipo legal del mercado. Viajan al prompt como restricciones duras."
-              values={zone.regulatory}
-              onChange={(regulatory) => updateZone(zone.id, { regulatory })}
-              placeholder="Prohibido dirigirse a menores de 18"
-            />
+            <Field
+              label="Restricciones propias de la zona"
+              hint="Solo lo que es distinto aquí. Lo que aplica en todo México se edita una vez en Legal y esta zona lo hereda."
+            >
+              <LegalRules
+                rules={zone.regulatory}
+                onChange={(regulatory) => updateZone(zone.id, { regulatory })}
+                placeholder="Respetar la ley seca en jornadas electorales"
+                emptyHint="Esta zona no añade nada: se rige solo por las reglas globales."
+                readOnlyRules={{
+                  rules: state.legal ?? [],
+                  label: `Heredadas de Legal (${(state.legal ?? []).length})`,
+                }}
+              />
+            </Field>
           </Section>
 
           <Section
@@ -345,7 +355,14 @@ export default function ZoneEditor() {
               </div>
               <div className="flex justify-between gap-3">
                 <dt className="text-[var(--muted)]">Restricciones</dt>
-                <dd className="font-medium">{zone.regulatory.length}</dd>
+                <dd className="font-medium">
+                  {resolveLegal(state, zone).all.length}
+                  <span className="font-normal text-[var(--muted)]">
+                    {" "}
+                    ({zone.regulatory.length} propia
+                    {zone.regulatory.length === 1 ? "" : "s"})
+                  </span>
+                </dd>
               </div>
             </dl>
           </div>

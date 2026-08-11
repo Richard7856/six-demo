@@ -89,3 +89,36 @@ export const Share2 = ({ className }: P) => (
     <path d="m8.3 10.8 7.4-4.3M8.3 13.2l7.4 4.3" />
   </svg>
 );
+
+export const Shield = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 3l7.5 3v5.4c0 4.3-3 8.2-7.5 9.6-4.5-1.4-7.5-5.3-7.5-9.6V6L12 3Z" />
+    <path d="m9 11.8 2.1 2.1L15 10" />
+  </svg>
+);
+
+export const Alert = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 4.5 21 20H3l9-15.5Z" />
+    <path d="M12 10v4M12 17h.01" />
+  </svg>
+);
+
+export const Upload = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 15.5V4M8.2 7.8 12 4l3.8 3.8M4.5 15.5v2.6a1.9 1.9 0 0 0 1.9 1.9h11.2a1.9 1.9 0 0 0 1.9-1.9v-2.6" />
+  </svg>
+);
+
+export const Scale = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 4v16M7 20h10M3.5 9h17M6.5 5.5 3.5 9l3 3.5L9.5 9l-3-3.5ZM17.5 5.5 14.5 9l3 3.5L20.5 9l-3-3.5Z" />
+  </svg>
+);
+
+export const Ban = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <circle cx="12" cy="12" r="8.5" />
+    <path d="m6 6 12 12" />
+  </svg>
+);

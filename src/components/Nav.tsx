@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Globe2, Layers, Package, Share2, Sparkles, Swatch } from "@/components/icons";
+import { Globe2, Layers, Package, Scale, Share2, Shield, Sparkles, Swatch } from "@/components/icons";
 
 const LINKS = [
   { href: "/", label: "Panel", icon: Layers },
@@ -10,6 +10,10 @@ const LINKS = [
   { href: "/zonas", label: "Zonas", icon: Globe2 },
   { href: "/productos", label: "Productos", icon: Package },
   { href: "/redes", label: "Redes", icon: Share2 },
+  { href: "/legal", label: "Legal", icon: Scale },
+  // Audita las fotos de la biblioteca de fondos. La auditoría de la pieza
+  // terminada vive dentro de cada propuesta, no aquí.
+  { href: "/auditoria", label: "Fondos", icon: Shield },
   { href: "/generar", label: "Generar", icon: Sparkles },
 ];
 
@@ -31,7 +35,10 @@ export function Nav() {
           </span>
         </Link>
 
-        <nav className="flex items-center gap-1">
+        {/* Se desplaza dentro de sí misma. Sin esto, en una ventana estrecha la
+            barra empuja la página y «Generar» —el botón que da sentido a la
+            demo— se queda fuera de pantalla sin que nadie lo sepa. */}
+        <nav className="flex min-w-0 flex-1 items-center gap-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {LINKS.map(({ href, label, icon: Icon }) => {
             const active =
               href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -52,7 +59,7 @@ export function Nav() {
           })}
         </nav>
 
-        <Link href="/campanas" className="ml-auto text-[13.5px] text-[var(--muted)] hover:text-[var(--ink)]">
+        <Link href="/campanas" className="shrink-0 text-[13.5px] text-[var(--muted)] hover:text-[var(--ink)]">
           Biblioteca
         </Link>
       </div>

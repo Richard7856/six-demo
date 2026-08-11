@@ -4,6 +4,7 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useStudio } from "@/lib/store";
 import { resolveBrand } from "@/lib/resolve";
+import { legalText, resolveLegal } from "@/lib/legal";
 import { FORMAT_SPEC } from "@/lib/formats";
 import { NETWORKS, getNetwork, type SocialNetwork } from "@/lib/networks";
 import { ProposalCard } from "@/components/ProposalCard";
@@ -120,7 +121,9 @@ function Generator() {
         audience: zone.audience,
         insight: zone.insight,
         occasions: zone.occasions,
-        regulatory: zone.regulatory,
+        // Globales + propias de la zona. Las que aún no ha validado legal
+        // viajan marcadas, para que el modelo no las trate como derecho firme.
+        regulatory: legalText(resolveLegal(state, zone).all),
       },
       product: {
         name: product.name,
@@ -384,11 +387,20 @@ function Generator() {
                 </span>
               )}
             </p>
-            {zone.regulatory.length ? (
+            {resolveLegal(state, zone).all.length ? (
               <div className="mt-2.5 flex flex-wrap gap-1.5">
-                {zone.regulatory.map((r) => (
-                  <span key={r} className="chip">
-                    {r}
+                {resolveLegal(state, zone).all.map((r) => (
+                  <span
+                    key={r.id}
+                    className="chip"
+                    title={r.validated ? "Validada por legal" : "Sin validar por legal"}
+                  >
+                    {r.validated ? null : (
+                      <span className="text-[#B37700]" aria-label="sin validar">
+                        ⚠
+                      </span>
+                    )}
+                    {r.text}
                   </span>
                 ))}
               </div>

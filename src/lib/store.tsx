@@ -9,14 +9,20 @@ import {
   useState,
 } from "react";
 import { SEED } from "./seed";
-import type { BrandKit, Product, Proposal, StudioState, Zone } from "./types";
+import type { BrandKit, LegalRule, Product, Proposal, StudioState, Zone } from "./types";
 
-const STORAGE_KEY = "demo-six:v5";
+// v6: las restricciones legales pasaron de lista de textos a reglas con estado
+// de validación, y aparecieron las globales. Un navegador con datos v5 no las
+// tiene y arrancaría roto, así que sube la clave y empieza limpio.
+const STORAGE_KEY = "demo-six:v6";
 
 type StudioContextValue = {
   state: StudioState;
   ready: boolean;
   setBrand: (patch: Partial<BrandKit>) => void;
+  setLegal: (rules: LegalRule[]) => void;
+  /** Sustituye solo las partes que vengan. Las propuestas nunca se tocan. */
+  importState: (patch: Partial<Omit<StudioState, "proposals">>) => void;
   updateZone: (id: string, patch: Partial<Zone>) => void;
   addZone: (zone: Zone) => void;
   removeZone: (id: string) => void;
@@ -59,6 +65,22 @@ export function StudioProvider({ children }: { children: React.ReactNode }) {
   const setBrand = useCallback((patch: Partial<BrandKit>) => {
     setState((s) => ({ ...s, brand: { ...s.brand, ...patch } }));
   }, []);
+
+  const setLegal = useCallback((legal: LegalRule[]) => {
+    setState((s) => ({ ...s, legal }));
+  }, []);
+
+  /**
+   * Aplica una importación. Solo entra lo que venga en el patch, y las
+   * propuestas ya guardadas se respetan siempre: quien importa una marca no
+   * está pidiendo que se le borre el trabajo hecho.
+   */
+  const importState = useCallback(
+    (patch: Partial<Omit<StudioState, "proposals">>) => {
+      setState((s) => ({ ...s, ...patch }));
+    },
+    [],
+  );
 
   const updateZone = useCallback((id: string, patch: Partial<Zone>) => {
     setState((s) => ({
@@ -122,6 +144,8 @@ export function StudioProvider({ children }: { children: React.ReactNode }) {
       state,
       ready,
       setBrand,
+      setLegal,
+      importState,
       updateZone,
       addZone,
       removeZone,
@@ -137,6 +161,8 @@ export function StudioProvider({ children }: { children: React.ReactNode }) {
       state,
       ready,
       setBrand,
+      setLegal,
+      importState,
       updateZone,
       addZone,
       removeZone,

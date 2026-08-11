@@ -1,3 +1,5 @@
+import type { CreativeAudit } from "./audit/creative";
+
 // ── Modelo de datos ────────────────────────────────────────────────────────
 // La idea central: hay UN brand kit global (la marca madre) y cada zona
 // puede sobreescribir partes de él. Nada se duplica: una zona guarda solo
@@ -42,6 +44,21 @@ export type BrandOverrides = {
   claims?: string[];
 };
 
+/**
+ * Una restricción legal de publicidad que el auditor aplica a las piezas.
+ *
+ * `validated` es el campo que importa: separa lo que ha revisado el equipo
+ * legal del cliente de lo que es una suposición nuestra. El auditor no puede
+ * bloquear una pieza apoyándose en algo sin validar — como mucho, avisar.
+ */
+export type LegalRule = {
+  id: string;
+  text: string;
+  validated: boolean;
+  /** De dónde sale la regla, cuando se sabe. */
+  source?: string;
+};
+
 export type Zone = {
   id: string;
   name: string;
@@ -54,7 +71,8 @@ export type Zone = {
   networks: string[];
   /** El @ de la marca en cada red, por zona: @six_mx vs @six_es. */
   handles: Record<string, string>;
-  regulatory: string[]; // restricciones legales de publicidad de alcohol
+  /** Restricciones propias de esta zona. Las globales van en `StudioState.legal`. */
+  regulatory: LegalRule[];
   overrides: BrandOverrides;
 };
 
@@ -95,10 +113,14 @@ export type Proposal = {
   kpis: string[];
   status: "draft" | "approved";
   engine: "claude" | "demo";
+  /** Último veredicto de auditoría de la pieza, si se ha pedido. */
+  audit?: CreativeAudit;
 };
 
 export type StudioState = {
   brand: BrandKit;
+  /** Reglas legales que aplican en todas las zonas. Cada zona añade las suyas. */
+  legal: LegalRule[];
   zones: Zone[];
   products: Product[];
   proposals: Proposal[];

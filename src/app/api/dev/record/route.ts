@@ -5,6 +5,7 @@ import path from "node:path";
 import { SEED } from "@/lib/seed";
 import { getNetwork } from "@/lib/networks";
 import { resolveBrand } from "@/lib/resolve";
+import { legalText, resolveLegal } from "@/lib/legal";
 import { SYSTEM_PROMPT, buildUserPrompt } from "@/lib/ai/prompt";
 import { PROPOSAL_TOOL, type GenerateRequest, type RawProposal } from "@/lib/ai/schema";
 import { fixtureKey } from "@/lib/demo/key";
@@ -111,7 +112,7 @@ async function record(client: Anthropic, combo: Combo): Promise<Fixture> {
       audience: zone.audience,
       insight: zone.insight,
       occasions: zone.occasions,
-      regulatory: zone.regulatory,
+      regulatory: legalText(resolveLegal(SEED, zone).all),
     },
     product: {
       name: product.name,

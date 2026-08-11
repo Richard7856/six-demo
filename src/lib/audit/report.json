@@ -1,0 +1,309 @@
+{
+  "against": {
+    "brandName": "Six",
+    "palette": [
+      "#E1211D",
+      "#2B2A25",
+      "#F5B301"
+    ],
+    "dont": [
+      "Sonar a supermercado grande o a corporativo",
+      "Prometer el precio más bajo: no es el terreno donde compite",
+      "Mostrar consumo excesivo de alcohol o a menores de edad",
+      "Vincular el consumo de alcohol con conducir"
+    ],
+    "regulatory": [
+      "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
+      "No asociar consumo con conducción",
+      "Precios y promociones con vigencia y condiciones visibles",
+      "Respetar ley seca en jornadas electorales",
+      "No mostrar consumo en vía pública",
+      "No asociar consumo con maquinaria ni jornada laboral",
+      "No asociar consumo con actividades acuáticas ni conducción"
+    ]
+  },
+  "images": [
+    {
+      "src": "/backgrounds/tienda-pasillo.jpg",
+      "backgroundId": "tienda-pasillo",
+      "label": "Tienda Six: pasillo de botanas y neveras",
+      "formats": [
+        "post-1x1"
+      ],
+      "checks": [
+        {
+          "id": "marca-ajena",
+          "verdict": "bloqueo",
+          "finding": "Arriba a la derecha hay un rótulo rojo y blanco con una «S» de tipografía comercial cortada por el encuadre, claramente de un tercero. Además el hombre de azul sostiene una bolsa de frituras con arte impreso reconocible, el de negro trae un pastelito en empaque naranja con marca visible, y las neveras y el gancho de la derecha están llenos de bolsas y latas con logotipos identificables."
+        },
+        {
+          "id": "conducta",
+          "verdict": "ok",
+          "finding": "Dos hombres adultos, aparentan más de 25 años, escogiendo botanas; no hay alcohol en mano, ni llaves, volante o coche en el encuadre, ni consumo de ningún tipo. El tono es de compra cotidiana, no de supermercado grande."
+        },
+        {
+          "id": "zona-limpia",
+          "verdict": "ok",
+          "finding": "La playera negra del hombre de la izquierda ocupa la esquina inferior izquierda como bloque oscuro y uniforme; ahí el logo y un titular en blanco o amarillo se sostienen sin competencia visual."
+        },
+        {
+          "id": "paleta",
+          "verdict": "aviso",
+          "finding": "Dominan azul marino, negro y gris del mobiliario, lo que deja aire al rojo de marca, pero el rótulo rojo saturado de la esquina superior derecha y el marco rojo de la nevera de la izquierda compiten directamente con el #E1211D si el logo se coloca arriba."
+        },
+        {
+          "id": "calidad",
+          "verdict": "ok",
+          "finding": "Imagen enfocada y bien expuesta, manos y caras correctas, sin artefactos ni texto deformado; el único texto es el rótulo del fondo, legible aunque cortado."
+        }
+      ],
+      "dominantColors": [
+        "#1E2A45",
+        "#2B2A25",
+        "#C7C9CE"
+      ],
+      "safeArea": "inferior-izquierda",
+      "summary": "No se puede publicar tal cual: hay rótulo, botanas y pastelito de marcas ajenas plenamente reconocibles; requiere retoque o sustitución de producto antes de usarse como fondo.",
+      "auditedAt": "2026-08-11T22:00:38.586Z",
+      "usage": {
+        "input": 3792,
+        "output": 1256
+      }
+    },
+    {
+      "src": "/backgrounds/tienda-pasillo-9x16.jpg",
+      "backgroundId": "tienda-pasillo",
+      "label": "Tienda Six: pasillo de botanas y neveras",
+      "formats": [
+        "story-9x16"
+      ],
+      "checks": [
+        {
+          "id": "marca-ajena",
+          "verdict": "bloqueo",
+          "finding": "En la nevera del fondo hay un cartel iluminado con el texto «LA CERVEZA MÁS FRÍA» y un emblema rojo a la derecha, más latas azules y plateadas apiladas y botellas oscuras con etiquetas de colores en el estante derecho; además el chico sostiene un empaque naranja de helado con gráfica de cono y letras redondas que no es de Six. Son envases y rótulos de terceros reconocibles como categoría y varios identificables por diseño."
+        },
+        {
+          "id": "conducta",
+          "verdict": "aviso",
+          "finding": "Los dos modelos aparentan más de 25 años y nadie consume nada, pero en la parte superior izquierda hay un póster promocional donde se distingue un automóvil azul pegado al mismo cristal de la nevera de cerveza; esa cercanía visual entre auto y alcohol es riesgosa para la regla de no asociar consumo con conducción."
+        },
+        {
+          "id": "zona-limpia",
+          "verdict": "aviso",
+          "finding": "La única superficie realmente uniforme es la playera negra del modelo de la izquierda, en la franja inferior-izquierda: ahí el logo y un titular en blanco o amarillo se leerían. El resto del encuadre está saturado de neveras iluminadas, texto y estantes."
+        },
+        {
+          "id": "paleta",
+          "verdict": "aviso",
+          "finding": "Dominan el azul marino de la playera derecha y el negro de la izquierda, pero el marco rojo de la nevera en el borde izquierdo ocupa una columna completa con un rojo saturado muy parecido al #E1211D; si el logo cae de ese lado se pierde."
+        },
+        {
+          "id": "calidad",
+          "verdict": "aviso",
+          "finding": "Las caras y manos están enfocadas y bien expuestas, sin deformaciones; el problema es el fondo: los rótulos de la nevera y el empaque del helado tienen tipografía borrosa y parcialmente ilegible que puede leerse como texto inventado en un story a pantalla completa."
+        }
+      ],
+      "dominantColors": [
+        "#1B1B1F",
+        "#2C3A57",
+        "#B01F22"
+      ],
+      "safeArea": "inferior-izquierda",
+      "summary": "No se puede publicar tal cual: hay rótulo y envases de cerveza de terceros más un empaque de helado ajeno bien visibles; solo sería usable con retoque que elimine el fondo de la nevera y el producto en mano, y colocando el logo sobre la playera negra inferior-izquierda.",
+      "auditedAt": "2026-08-11T22:01:02.345Z",
+      "usage": {
+        "input": 4966,
+        "output": 1436
+      }
+    },
+    {
+      "src": "/backgrounds/tienda-pasillo-16x9.jpg",
+      "backgroundId": "tienda-pasillo",
+      "label": "Tienda Six: pasillo de botanas y neveras",
+      "formats": [
+        "banner-16x9"
+      ],
+      "checks": [
+        {
+          "id": "marca-ajena",
+          "verdict": "bloqueo",
+          "finding": "El exhibidor de la derecha está lleno de envases de terceros perfectamente legibles: galletas «Emperador», «Marinela», «Doradas», «Crema», barras tipo «Payaso» y varias bolsas de botana con logotipos reconocibles a primer plano. Además, en las neveras del fondo izquierdo se distinguen latas y botellas de bebidas de otras marcas, aunque desenfocadas."
+        },
+        {
+          "id": "conducta",
+          "verdict": "ok",
+          "finding": "Dos hombres que aparentan claramente más de 25 años eligiendo galletas; no hay consumo de alcohol, ni menores, ni coches, llaves o volantes en el encuadre. La única presencia de bebidas está cerrada dentro de las neveras del fondo."
+        },
+        {
+          "id": "zona-limpia",
+          "verdict": "aviso",
+          "finding": "La única superficie uniforme es la playera negra y el pantalón del sujeto en primer plano, abajo a la izquierda; el resto del cuadro está saturado de empaques y la parte superior central ya está ocupada por un rótulo Six existente, que competiría con el logo de la pieza."
+        },
+        {
+          "id": "paleta",
+          "verdict": "aviso",
+          "finding": "El rojo de la góndola, el marco de la nevera y el rótulo Six ya ocupan buena parte del encuadre, más los amarillos y azules de los empaques; el rojo de marca #E1211D se pierde si se coloca sobre esa zona derecha."
+        },
+        {
+          "id": "calidad",
+          "verdict": "ok",
+          "finding": "Imagen nítida y bien expuesta, sin ruido ni halos; manos y rostros correctos, incluido el brazo tatuado en primer plano, y el texto de los empaques se lee sin deformaciones."
+        }
+      ],
+      "dominantColors": [
+        "#C9182B",
+        "#1E2433",
+        "#E8E5E0"
+      ],
+      "safeArea": "inferior-izquierda",
+      "summary": "No se puede publicar tal cual: el exhibidor muestra marcas ajenas legibles en primer plano; solo sería usable con un recorte cerrado a la zona de las personas o con retoque que elimine los empaques, y aun así hay que vigilar que el rojo de la góndola no se coma el logo.",
+      "auditedAt": "2026-08-11T22:01:24.571Z",
+      "usage": {
+        "input": 4190,
+        "output": 1249
+      }
+    },
+    {
+      "src": "/backgrounds/mesa-larga-noche.jpg",
+      "backgroundId": "mesa-larga-noche",
+      "label": "Reunión en casa: mesa larga de noche",
+      "formats": [
+        "post-1x1"
+      ],
+      "checks": [
+        {
+          "id": "marca-ajena",
+          "verdict": "aviso",
+          "finding": "No distingo ningún logo ni rótulo legible: las copas de vino y la botella oscura al centro de la mesa no muestran etiqueta reconocible. Quedan dos puntos por confirmar en alta resolución: el asador de tambo a la derecha, que tiene una calca clara en la tapa, y el celular boca abajo sobre la mesa junto al plato inferior derecho."
+        },
+        {
+          "id": "conducta",
+          "verdict": "aviso",
+          "finding": "Hay consumo de vino (unas seis copas servidas) en una terraza privada, no en vía pública, y todos los comensales aparentan claramente más de 25 años. No veo autos, llaves ni volantes. La salvedad: es una escena con alcohol visible, así que cualquier copy debe evitar cualquier alusión a manejar o a seguir la fiesta fuera."
+        },
+        {
+          "id": "zona-limpia",
+          "verdict": "ok",
+          "finding": "El muro gris oscuro del tercio superior izquierdo es plano y sin detalle en un área grande; ahí caben logo y titular con contraste alto. El cielo lavanda superior derecho también es limpio, pero lo cruzan las series de foquitos."
+        },
+        {
+          "id": "paleta",
+          "verdict": "ok",
+          "finding": "Dominan beige cálido del muro, gris oscuro del bloque superior y lavanda del cielo. No hay rojo saturado en cuadro, así que el #E1211D destaca sin competencia; el ámbar de los foquitos es cercano al #F5B301 y funciona como acento."
+        },
+        {
+          "id": "calidad",
+          "verdict": "ok",
+          "finding": "Foto enfocada en la mesa, exposición correcta para hora azul y sin artefactos. Las manos alzadas del hombre al fondo tienen cinco dedos bien formados y no hay texto en la imagen. Las caras de la izquierda quedan en sombra, pero es intención de luz, no defecto."
+        }
+      ],
+      "dominantColors": [
+        "#B7A08A",
+        "#3C3937",
+        "#C6BAC8"
+      ],
+      "safeArea": "superior-izquierda",
+      "summary": "Usable como fondo: buena zona limpia arriba a la izquierda y cero conflicto con el rojo de marca; antes de aprobar, revisen en alta resolución la calca del asador y el celular sobre la mesa, y cuiden que el copy no mezcle el alcohol visible con manejar.",
+      "auditedAt": "2026-08-11T22:01:48.207Z",
+      "usage": {
+        "input": 3638,
+        "output": 1388
+      }
+    },
+    {
+      "src": "/backgrounds/mesa-larga-noche-9x16.jpg",
+      "backgroundId": "mesa-larga-noche",
+      "label": "Reunión en casa: mesa larga de noche",
+      "formats": [
+        "story-9x16"
+      ],
+      "checks": [
+        {
+          "id": "marca-ajena",
+          "verdict": "aviso",
+          "finding": "No distingo ningún logo ni etiqueta legible: las copas son de vino sin botella a la vista, los platos son de barro tipo talavera y el asador de tambo no muestra rótulo. Lo único dudoso es un celular boca abajo sobre la mesa a la derecha y un objeto oscuro junto a él; a tamaño story no se lee marca, pero conviene revisarlo al 100%."
+        },
+        {
+          "id": "conducta",
+          "verdict": "aviso",
+          "finding": "Hay alcohol claro en escena: al menos cinco copas de vino sobre la mesa, dos con vino tinto servido, en una cena en azotea privada. Los comensales aparentan más de 25 años, no hay menores, ni coches, llaves ni volante en cuadro, y el consumo es moderado (comida servida, ambiente de sobremesa). Aun así, cualquier titular sobre esta foto no puede insinuar exceso ni cruzarse con mensajes de traslado."
+        },
+        {
+          "id": "zona-limpia",
+          "verdict": "ok",
+          "finding": "El muro gris liso de la esquina superior izquierda ocupa cerca de un tercio del alto del encuadre y no tiene textura ni focos encima; ahí caben logo y titular. La franja de piso claro de la parte inferior también está limpia, pero es más brillante y desenfocada."
+        },
+        {
+          "id": "paleta",
+          "verdict": "ok",
+          "finding": "Dominan gris pizarra del muro, beige cálido de la pared iluminada y lila del cielo al anochecer. No hay rojo saturado que compita con el #E1211D; el único riesgo es que los focos ámbar de las series se acerquen al #F5B301 y le resten fuerza si el titular va en amarillo."
+        },
+        {
+          "id": "calidad",
+          "verdict": "ok",
+          "finding": "Foto enfocada en el grupo, con las manos alzadas del hombre del centro bien definidas (cinco dedos por mano) y caras sin deformaciones. Exposición correcta para luz de atardecer, con algo de ruido en las sombras del muro izquierdo; no hay texto legible ni inventado."
+        }
+      ],
+      "dominantColors": [
+        "#4A474B",
+        "#C2A88C",
+        "#A9A2B2"
+      ],
+      "safeArea": "superior-izquierda",
+      "summary": "Usable como fondo: escena de reunión en casa sin marcas legibles y con buena zona limpia arriba a la izquierda, pero lleva alcohol en cuadro, así que el copy debe cumplir las reglas de alcohol y hay que verificar al 100% el celular de la mesa antes de aprobar.",
+      "auditedAt": "2026-08-11T22:02:16.784Z",
+      "usage": {
+        "input": 3050,
+        "output": 1673
+      }
+    },
+    {
+      "src": "/backgrounds/mesa-larga-noche-16x9.jpg",
+      "backgroundId": "mesa-larga-noche",
+      "label": "Reunión en casa: mesa larga de noche",
+      "formats": [
+        "banner-16x9"
+      ],
+      "checks": [
+        {
+          "id": "marca-ajena",
+          "verdict": "aviso",
+          "finding": "No distingo ningún logo ni etiqueta legible: las copas de vino, los platos de barro y los tazones están sin marca, y el asador negro del fondo derecho no muestra rótulo. Aun así, hay vasos y una copa con líquido oscuro al centro-derecha de la mesa y el asador tiene un emblema circular borroso en la tapa que conviene revisar a resolución completa antes de aprobar."
+        },
+        {
+          "id": "conducta",
+          "verdict": "aviso",
+          "finding": "Hay copas de vino tinto y blanco frente a casi todos los comensales en una terraza privada; todos aparentan claramente más de 25 años, nadie se ve pasado de copas y no hay coche, llaves ni volante en cuadro. La salvedad: es una escena con alcohol visible, así que el copy no puede insinuar traslado, manejo ni cantidad."
+        },
+        {
+          "id": "zona-limpia",
+          "verdict": "aviso",
+          "finding": "La pared clara de la esquina superior izquierda es la zona más uniforme, pero la cruzan dos hileras de foquitos encendidos que meten puntos brillantes; sirve para logo y titular corto si se aplica una capa oscura de apoyo."
+        },
+        {
+          "id": "paleta",
+          "verdict": "ok",
+          "finding": "Dominan el gris azulado del cielo al anochecer, los cafés cálidos de la mesa y el negro de la ropa; no hay rojo saturado propio que compita, así que el #E1211D resalta bien. El único punto de cuidado es el ámbar de los foquitos, que se acerca al #F5B301."
+        },
+        {
+          "id": "calidad",
+          "verdict": "ok",
+          "finding": "Foco correcto en el hombre de camisa estampada al centro y en las mujeres de la derecha, exposición pareja pese al contraluz de los foquitos, sin ruido evidente. Las manos levantadas del centro y los rostros están bien formados, y no hay texto en cuadro."
+        }
+      ],
+      "dominantColors": [
+        "#2A2521",
+        "#B8875A",
+        "#6E7A84"
+      ],
+      "safeArea": "superior-izquierda",
+      "summary": "Se puede usar como fondo 16x9: escena de casa, sin marcas legibles y con buena convivencia con el rojo de marca; antes de aprobar, revisen a resolución completa el emblema del asador y los vasos del centro, y cuiden que el copy no ligue el alcohol con manejar.",
+      "auditedAt": "2026-08-11T22:02:42.132Z",
+      "usage": {
+        "input": 3051,
+        "output": 1442
+      }
+    }
+  ]
+}

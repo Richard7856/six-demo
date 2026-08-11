@@ -5,7 +5,7 @@ import { useStudio } from "@/lib/store";
 import { countOverrides, resolveBrand } from "@/lib/resolve";
 import { PageHeader } from "@/components/ui";
 import { CreativePreview } from "@/components/CreativePreview";
-import { Sparkles } from "@/components/icons";
+import { Sparkles, Upload } from "@/components/icons";
 
 export default function Dashboard() {
   const { state } = useStudio();
@@ -17,10 +17,16 @@ export default function Dashboard() {
         title="Panel"
         subtitle="Un brand kit global, adaptado por zona, que alimenta un generador de propuestas por producto y canal."
         action={
-          <Link href="/generar" className="btn btn-primary">
-            <Sparkles className="h-4 w-4" />
-            Generar propuestas
-          </Link>
+          <div className="flex flex-wrap gap-2">
+            <Link href="/importar" className="btn">
+              <Upload className="h-4 w-4" />
+              Importar marca
+            </Link>
+            <Link href="/generar" className="btn btn-primary">
+              <Sparkles className="h-4 w-4" />
+              Generar propuestas
+            </Link>
+          </div>
         }
       />
 
