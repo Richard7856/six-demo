@@ -66,7 +66,7 @@ export default function BrandPage() {
               hint="PNG o SVG con fondo transparente. Se compone encima del creativo, nunca lo genera la IA."
             >
               <div className="flex items-center gap-3">
-                <div className="grid h-14 w-28 place-items-center rounded-lg border border-[var(--line)] bg-[#0B1F14] p-2">
+                <div className="grid h-14 w-28 place-items-center rounded-lg border border-[var(--line)] bg-[#1A1917] p-2">
                   {brand.logoDataUrl ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img

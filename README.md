@@ -4,8 +4,9 @@ Herramienta interna para llevar una marca de gran consumo por **zona** y por **p
 defines el brand kit una vez, cada mercado sobreescribe solo lo que necesita, y un bot
 genera propuestas de campaña listas para revisar.
 
-Los datos de ejemplo están montados sobre Six, pero nada está hardcodeado: la marca,
-las zonas y los productos se editan desde la propia app.
+Los datos de ejemplo están montados sobre Six —logo real en `public/brand/`, paleta
+muestreada de él (rojo `#E1211D`, carbón `#2B2A25`)—, pero nada está hardcodeado: la
+marca, el logo, las zonas y los productos se editan desde la propia app.
 
 ---
 
@@ -29,7 +30,7 @@ Para el modo real, copia `.env.example` a `.env.local` y rellena lo que tengas.
 Hay **un** brand kit global. Cada zona guarda únicamente los campos que cambia
 (`Zone.overrides`), y `resolveBrand()` mezcla ambos en el momento de usarlos.
 
-Esto significa que si mañana cambias el verde corporativo en el brand kit global, cambia
+Esto significa que si mañana cambias el rojo corporativo en el brand kit global, cambia
 en las cinco zonas menos en la que decidió tener el suyo propio. En la UI los campos
 sobreescritos llevan una barra amarilla y un botón de «volver a heredar».
 

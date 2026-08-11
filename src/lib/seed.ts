@@ -7,15 +7,16 @@ import type { StudioState } from "./types";
 export const SEED: StudioState = {
   brand: {
     name: "Six",
-    logoDataUrl: null,
+    // Muestreado del logo real: rojo #E1211D sobre carbón #2B2A25.
+    logoDataUrl: "/brand/six-logo.png",
     positioning:
       "La cerveza premium internacional que abre mundo. Une a gente distinta alrededor de una misma mesa, con humor, sin postureo y con calidad cervecera de 150 años.",
     colors: {
-      primary: "#03843D",
-      secondary: "#E4022D",
-      accent: "#F5C518",
-      ink: "#0B1F14",
-      surface: "#F6F7F4",
+      primary: "#E1211D",
+      secondary: "#2B2A25",
+      accent: "#F5B301",
+      ink: "#1A1917",
+      surface: "#F5F5F3",
     },
     fonts: {
       display: '"Helvetica Neue", Helvetica, Arial, sans-serif',
@@ -165,7 +166,7 @@ export const SEED: StudioState = {
         "Mensaje de consumo responsable obligatorio",
       ],
       overrides: {
-        colors: { accent: "#E4022D" },
+        colors: { accent: "#F2A900" },
         claims: ["Abre tu mundo", "Brindemos juntos"],
       },
     },
@@ -177,8 +178,8 @@ export const SEED: StudioState = {
       name: "Six Original",
       family: "Lager",
       abv: "5,0%",
-      color: "#03843D",
-      attributes: ["Lager premium", "Levadura A", "Botella verde icónica"],
+      color: "#E1211D",
+      attributes: ["Lager premium", "Levadura A", "Lata roja icónica"],
       occasions: ["Terraza", "Bar", "Cena"],
       notes: "El caballo de batalla. Todo lo demás se mide contra esto.",
     },

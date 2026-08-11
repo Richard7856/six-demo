@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f4f5f2;
+  --bg: #F5F5F3;
   --panel: #ffffff;
-  --line: #e2e5df;
-  --ink: #10201a;
-  --muted: #6b7a72;
-  --brand: #03843d;
+  --line: #E4E2DE;
+  --ink: #1A1917;
+  --muted: #77726B;
+  --brand: #E1211D;
 }
 
 html,
@@ -46,7 +46,7 @@ body {
 }
 .field:focus {
   border-color: var(--brand);
-  box-shadow: 0 0 0 3px rgb(3 132 61 / 0.12);
+  box-shadow: 0 0 0 3px rgb(225 33 29 / 0.12);
 }
 textarea.field {
   resize: vertical;
@@ -68,7 +68,7 @@ textarea.field {
   transition: background 0.12s ease, border-color 0.12s ease, opacity 0.12s ease;
 }
 .btn:hover {
-  background: #f7f8f6;
+  background: #FAF9F7;
 }
 .btn:disabled {
   opacity: 0.5;
@@ -80,14 +80,14 @@ textarea.field {
   color: #fff;
 }
 .btn-primary:hover {
-  background: #026e33;
+  background: #C41A17;
 }
 .btn-ghost {
   border-color: transparent;
   background: transparent;
 }
 .btn-ghost:hover {
-  background: #eceee9;
+  background: #EDEBE7;
 }
 
 .chip {

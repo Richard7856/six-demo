@@ -19,14 +19,16 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-30 border-b border-[var(--line)] bg-[rgba(244,245,242,0.88)] backdrop-blur">
       <div className="mx-auto flex w-full max-w-[1180px] items-center gap-6 px-5 py-3">
-        <Link href="/" className="flex items-center gap-2.5">
-          <span
-            className="grid h-7 w-7 place-items-center rounded-md text-[13px] font-bold text-white"
-            style={{ background: "var(--brand)" }}
-          >
-            6
+        <Link href="/" className="flex shrink-0 items-center gap-2.5">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/six-logo-sm.png"
+            alt="Six"
+            className="h-6 w-auto"
+          />
+          <span className="whitespace-nowrap text-[13px] font-semibold uppercase tracking-[0.14em] text-[var(--muted)]">
+            Demo
           </span>
-          <span className="text-[15px] font-bold tracking-tight">Demo Six</span>
         </Link>
 
         <nav className="flex items-center gap-1">

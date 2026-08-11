@@ -160,10 +160,10 @@ async function generateWithOpenAI(body: Body): Promise<string> {
 /** Último recurso si la biblioteca está vacía: degradado con la paleta. */
 function placeholderImage(body: Body): string {
   const p = body.palette ?? {
-    primary: "#03843D",
+    primary: "#E1211D",
     secondary: "#E4022D",
-    accent: "#F5C518",
-    ink: "#0B1F14",
+    accent: "#F5B301",
+    ink: "#1A1917",
   };
 
   const h = hash(body.prompt);

@@ -15,7 +15,7 @@ export default function ProductsPage() {
       name: name.trim(),
       family: "",
       abv: "",
-      color: "#03843D",
+      color: "#E1211D",
       attributes: [],
       occasions: [],
       notes: "",

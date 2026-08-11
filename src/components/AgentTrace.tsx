@@ -55,7 +55,7 @@ export function AgentTrace({
   lines,
   running,
   title,
-  accent = "#03843D",
+  accent = "#E1211D",
 }: {
   lines: TraceLine[];
   running: boolean;

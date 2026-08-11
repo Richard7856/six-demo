@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Demo Six — branding por zona y producto",
   description:
     "Define el brand kit, adáptalo por zona y genera propuestas de campaña por producto y canal.",
+  icons: { icon: "/icon.png" },
 };
 
 export default function RootLayout({
