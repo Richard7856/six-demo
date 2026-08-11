@@ -14,6 +14,9 @@ Nada está hardcodeado: la marca, el logo, las zonas y las líneas se editan des
 propia app. Las notas regulatorias del seed son placeholders orientativos y hay que
 validarlas con legal antes de publicar nada.
 
+> **¿Retomando el proyecto?** [HANDOFF.md](HANDOFF.md) tiene el estado actual,
+> lo que falta decidir y lo que ya se probó y se descartó.
+
 ---
 
 ## Arrancar
