@@ -11,7 +11,7 @@ import {
 import { SEED } from "./seed";
 import type { BrandKit, Product, Proposal, StudioState, Zone } from "./types";
 
-const STORAGE_KEY = "demo-six:v4";
+const STORAGE_KEY = "demo-six:v5";
 
 type StudioContextValue = {
   state: StudioState;

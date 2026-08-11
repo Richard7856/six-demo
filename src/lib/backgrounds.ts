@@ -54,7 +54,7 @@ export const BACKGROUNDS: Background[] = [
   },
   {
     id: "mesa-larga-noche",
-    label: "Mesa larga de noche, luces cálidas",
+    label: "Reunión en casa: mesa larga de noche",
     src: {
       "post-1x1": "/backgrounds/mesa-larga-noche.jpg",
       "story-9x16": "/backgrounds/mesa-larga-noche-9x16.jpg",

@@ -1,8 +1,16 @@
 import type { StudioState } from "./types";
 
 // Datos de arranque para la demo. Todo es editable desde la propia app.
-// Las notas regulatorias son PLACEHOLDERS orientativos: hay que validarlas
-// con el equipo legal de cada mercado antes de usarlas en producción.
+//
+// Six es una cadena de tiendas de conveniencia mexicana (Cuauhtémoc Moctezuma /
+// Heineken México): la segunda del país por número de sucursales, con modelo de
+// operador-socio y posicionamiento de "el vecino favorito".
+//
+// De ahí que las zonas sean regiones de México y no países: una cadena de
+// proximidad se adapta por barrio y por horario, no por continente.
+//
+// Las notas regulatorias son PLACEHOLDERS orientativos: hay que validarlas con
+// el equipo legal antes de usarlas en producción.
 
 export const SEED: StudioState = {
   brand: {
@@ -10,7 +18,7 @@ export const SEED: StudioState = {
     // Muestreado del logo real: rojo #E1211D sobre carbón #2B2A25.
     logoDataUrl: "/brand/six-logo.png",
     positioning:
-      "La cerveza premium internacional que abre mundo. Une a gente distinta alrededor de una misma mesa, con humor, sin postureo y con calidad cervecera de 150 años.",
+      "La tienda de la esquina que siempre está abierta y siempre tiene lo que se te olvidó. No compite por surtido ni por precio: compite por estar a dos cuadras y resolverte en tres minutos.",
     colors: {
       primary: "#E1211D",
       secondary: "#2B2A25",
@@ -24,205 +32,225 @@ export const SEED: StudioState = {
     },
     voice: {
       persona:
-        "Un anfitrión con mundo: cercano, con chispa, nunca pretencioso. Habla de tú a tú y se ríe primero de sí mismo.",
-      tone: ["Cercano", "Con humor", "Optimista", "Internacional", "Sin postureo"],
+        "El de la tienda de tu cuadra: te conoce, te tutea, no te vende de más y siempre tiene una broma. Habla como el barrio, no como una corporación.",
+      tone: ["De barrio", "Rápido", "Con humor", "Servicial", "Sin pretensiones"],
       do: [
-        "Poner a las personas y el encuentro por delante del producto",
-        "Usar humor observacional, situaciones reconocibles",
-        "Hablar de calidad cervecera cuando aporta, no como alarde",
-        "Rematar siempre con el mensaje de consumo responsable",
+        "Hablar de resolver: lo que se acabó, lo que se olvidó, lo que urge",
+        "Presumir cercanía y horario antes que surtido o precio",
+        "Usar humor de situación cotidiana, reconocible en la colonia",
+        "Reconocer al operador de la tienda como parte de la marca",
       ],
       dont: [
-        "Asociar la cerveza al éxito social, sexual o profesional",
-        "Mostrar consumo excesivo o a menores de edad",
-        "Vincular la marca con conducción o deporte de riesgo",
-        "Prometer beneficios de salud",
+        "Sonar a supermercado grande o a corporativo",
+        "Prometer el precio más bajo: no es el terreno donde compite",
+        "Mostrar consumo excesivo de alcohol o a menores de edad",
+        "Vincular el consumo de alcohol con conducir",
       ],
     },
-    claims: ["Open Your World", "Refresca tu mundo", "Buena compañía, buena cerveza"],
+    claims: ["Di que SIX", "Aquí sí hay", "Tu vecino favorito"],
   },
 
   zones: [
     {
-      id: "es-iberia",
-      name: "Iberia",
-      country: "España / Portugal",
-      language: "es-ES",
-      audience: "25-40, urbano, sale entre semana, muy social",
+      id: "mx-norte",
+      name: "Norte",
+      country: "Nuevo León, Coahuila, Tamaulipas",
+      language: "es-MX",
+      audience: "25-45, casa propia y coche, compra para la casa y para la reunión",
       insight:
-        "Aquí la cerveza no es la excusa, es el pretexto: se pide 'una caña' para ver a alguien. El momento importa más que el producto.",
-      occasions: ["Terraza after-work", "Comida de finde", "Partido en el bar"],
+        "Aquí la tienda es la extensión del refri de la casa. El viernes se compra para la carne asada y lo que falta se repone en viajes cortos toda la tarde: nadie hace una sola compra grande.",
+      occasions: [
+        "Reposición de carne asada",
+        "Hielo de última hora",
+        "Camino de regreso del trabajo",
+      ],
       networks: ["instagram-feed", "facebook", "instagram-stories", "tiktok"],
       handles: {
-        "instagram-feed": "@six_es",
-        "instagram-stories": "@six_es",
-        tiktok: "@six_es",
-        facebook: "@SixEspana",
+        "instagram-feed": "@tiendassix",
+        "instagram-stories": "@tiendassix",
+        tiktok: "@tiendassixoficial",
+        facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Prohibido dirigirse a menores de 18 años; segmentación de edad obligatoria",
+        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
         "No asociar consumo con conducción",
-        "Incluir mensaje de consumo responsable",
+        "Precios y promociones con vigencia y condiciones visibles",
       ],
       overrides: {},
     },
     {
-      id: "mx-mexico",
-      name: "México",
-      country: "México",
+      id: "mx-valle",
+      name: "Valle de México",
+      country: "CDMX y Estado de México",
       language: "es-MX",
-      audience: "21-35, ciudad, música en vivo y comida callejera",
+      audience: "22-40, sin coche, trayectos largos en transporte, departamento chico",
       insight:
-        "La convivencia es larga y ruidosa. La cerveza acompaña horas, no minutos, y compite con una cultura cervecera local muy fuerte.",
-      occasions: ["Carnita asada", "Concierto", "Comida callejera de noche"],
-      networks: ["instagram-feed", "facebook", "instagram-stories", "tiktok", "spotify"],
+        "Aquí no se hace despensa: no hay dónde guardarla ni cómo cargarla. Se compra a pie, casi diario, lo que cabe en una mano de camino a casa. La tienda compite contra el peso de la bolsa.",
+      occasions: [
+        "Salida del metro",
+        "Antojo de las once de la noche",
+        "Se acabó a media receta",
+      ],
+      networks: ["instagram-feed", "facebook", "instagram-stories", "tiktok"],
       handles: {
-        tiktok: "@six_mx",
-        facebook: "@SixMexico",
-        "instagram-feed": "@sixmx",
-        "instagram-stories": "@sixmx",
-        spotify: "Six México",
+        "instagram-feed": "@tiendassix",
+        "instagram-stories": "@tiendassix",
+        tiktok: "@tiendassixoficial",
+        facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Prohibido dirigirse a menores de 18 años",
-        "Leyenda de moderación obligatoria en piezas audiovisuales",
+        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
+        "Respetar ley seca en jornadas electorales",
+        "Precios y promociones con vigencia y condiciones visibles",
+      ],
+      overrides: {
+        voice: {
+          tone: ["De barrio", "Rápido", "Con humor", "Urbano", "Sin pretensiones"],
+        },
+      },
+    },
+    {
+      id: "mx-occidente",
+      name: "Occidente",
+      country: "Jalisco, Michoacán, Colima",
+      language: "es-MX",
+      audience: "20-38, vida de calle y plaza, mucha salida entre semana",
+      insight:
+        "La previa se arma en la banqueta, no en la casa. La tienda es el punto de encuentro antes del plan: llega uno, van cayendo los demás, y de ahí se decide a dónde ir.",
+      occasions: [
+        "La previa antes de salir",
+        "Partido en casa de alguien",
+        "Rodada o parque",
+      ],
+      networks: ["instagram-feed", "facebook", "tiktok", "instagram-stories"],
+      handles: {
+        "instagram-feed": "@tiendassix",
+        "instagram-stories": "@tiendassix",
+        tiktok: "@tiendassixoficial",
+        facebook: "Tiendas SIX",
+      },
+      regulatory: [
+        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
+        "No mostrar consumo en vía pública",
+        "Precios y promociones con vigencia y condiciones visibles",
       ],
       overrides: {
         colors: { accent: "#FF6B00" },
-        voice: {
-          tone: ["Cercano", "Con humor", "Cálido", "Barrio", "Sin postureo"],
-        },
-        claims: ["Abre tu mundo", "La que junta a todos"],
       },
     },
     {
-      id: "br-brasil",
-      name: "Brasil",
-      country: "Brasil",
-      language: "pt-BR",
-      audience: "22-38, gran ciudad, fútbol y música electrónica",
+      id: "mx-bajio",
+      name: "Bajío",
+      country: "Guanajuato, Querétaro, Aguascalientes",
+      language: "es-MX",
+      audience: "24-45, turnos de planta, horarios partidos, mucho traslado",
       insight:
-        "Six juega la carta premium frente a las marcas de volumen: se pide cuando quieres subir un punto el momento, no cuando tienes sed.",
-      occasions: ["Churrasco", "Festival", "Botequim con amigos"],
-      networks: ["instagram-feed", "facebook", "youtube", "tiktok"],
+        "Aquí manda el turno, no el día. La tienda le vende a las seis de la mañana y a las once de la noche a la misma persona en semanas distintas: lo que cambia no es el cliente, es su horario.",
+      occasions: ["Entrada de turno", "Salida de turno", "Lonche de media jornada"],
+      networks: ["facebook", "instagram-feed", "tiktok"],
       handles: {
-        "instagram-feed": "@sixbr",
-        facebook: "@SixBrasil",
-        youtube: "Six Brasil",
-        tiktok: "@sixbr",
+        "instagram-feed": "@tiendassix",
+        tiktok: "@tiendassixoficial",
+        facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Autorregulación CONAR: sin menores, sin consumo excesivo",
-        "Advertencia de moderación visible",
+        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
+        "No asociar consumo con maquinaria ni jornada laboral",
+        "Precios y promociones con vigencia y condiciones visibles",
       ],
       overrides: {
         positioning:
-          "El upgrade accesible: la cerveza que eliges cuando el momento merece algo mejor, sin dejar de ser una fiesta.",
-        colors: { accent: "#00C2A8" },
+          "La que ya está abierta cuando no lo está nada más. Se gana el turno de las seis de la mañana y el de las once de la noche.",
       },
     },
     {
-      id: "nl-benelux",
-      name: "Benelux",
-      country: "Países Bajos / Bélgica",
-      language: "nl-NL",
-      audience: "24-45, mercado de origen, exigente con la calidad",
+      id: "mx-sureste",
+      name: "Sureste",
+      country: "Yucatán, Quintana Roo, Campeche",
+      language: "es-MX",
+      audience: "23-45, calor todo el año, mezcla de local y visitante",
       insight:
-        "Es la casa. Aquí no hay que explicar la marca, hay que merecerla: se valora el oficio cervecero y la sobriedad en el tono.",
-      occasions: ["Borrel de viernes", "Terraza de canal", "Cena en casa"],
-      networks: ["instagram-feed", "facebook", "youtube"],
+        "Con este calor lo frío no es una preferencia, es el producto. Aquí la pregunta no es qué tienes: es qué tienes frío y a cuántas cuadras está el hielo.",
+      occasions: [
+        "Salida a la playa",
+        "Tarde de calor en casa",
+        "Reunión familiar de domingo",
+      ],
+      networks: ["instagram-feed", "facebook", "instagram-stories"],
       handles: {
-        "instagram-feed": "@six_nl",
-        youtube: "Six Nederland",
-        facebook: "@SixNL",
+        "instagram-feed": "@tiendassix",
+        "instagram-stories": "@tiendassix",
+        facebook: "Tiendas SIX",
       },
       regulatory: [
-        "Código NIX18: sin menores de 18 en comunicación",
-        "Sin publicidad en horario infantil",
+        "Publicidad de alcohol: prohibido dirigirse a menores de 18 años",
+        "No asociar consumo con actividades acuáticas ni conducción",
+        "Precios y promociones con vigencia y condiciones visibles",
       ],
       overrides: {
-        voice: {
-          tone: ["Sobrio", "Con oficio", "Seco", "Confiado"],
-        },
-      },
-    },
-    {
-      id: "vn-vietnam",
-      name: "Vietnam",
-      country: "Vietnam",
-      language: "vi-VN",
-      audience: "23-40, clase media urbana en crecimiento",
-      insight:
-        "El consumo es de mesa larga y brindis colectivo. La marca internacional funciona como señal de estatus compartido, no individual.",
-      occasions: ["Cena de negocios", "Mesa larga familiar", "Año Nuevo Lunar"],
-      networks: ["instagram-feed", "facebook", "tiktok"],
-      handles: {
-        facebook: "@SixVietnam",
-        tiktok: "@six_vn",
-        "instagram-feed": "@sixvietnam",
-      },
-      regulatory: [
-        "Restricciones horarias en publicidad de alcohol en medios",
-        "Mensaje de consumo responsable obligatorio",
-      ],
-      overrides: {
-        colors: { accent: "#F2A900" },
-        claims: ["Abre tu mundo", "Brindemos juntos"],
+        colors: { accent: "#00A8C2" },
+        claims: ["Di que SIX", "Aquí sí está fría"],
       },
     },
   ],
 
+  // En una cadena de conveniencia el "producto" no es un SKU: es la línea que
+  // se comunica. Cada una tiene su ocasión y compite contra algo distinto.
   products: [
     {
-      id: "six-original",
-      name: "Six Original",
-      family: "Lager",
-      abv: "5,0%",
+      id: "cerveza-fria",
+      name: "Cerveza fría",
+      family: "Bebida con alcohol",
+      abv: "Varía",
       color: "#E1211D",
-      attributes: ["Lager premium", "Levadura A", "Lata roja icónica"],
-      occasions: ["Terraza", "Bar", "Cena"],
-      notes: "El caballo de batalla. Todo lo demás se mide contra esto.",
-    },
-    {
-      id: "six-00",
-      name: "Six 0.0",
-      family: "Sin alcohol",
-      abv: "0,0%",
-      color: "#0B4FA5",
-      attributes: ["Sin alcohol", "Mismo sabor lager", "69 kcal/botella"],
-      occasions: ["Comida de oficina", "Deporte", "Conducir"],
+      attributes: ["Siempre fría", "Portafolio completo", "A dos cuadras"],
+      occasions: ["Reunión en casa", "La previa", "Fin de jornada"],
       notes:
-        "Es el producto que abre ocasiones nuevas: permite hablar de momentos donde antes no había cerveza.",
+        "El motor de tráfico y la razón por la que muchos entran. Toda la comunicación de esta línea carga con las restricciones de alcohol.",
     },
     {
-      id: "six-silver",
-      name: "Six Silver",
-      family: "Lager suave",
-      abv: "4,0%",
-      color: "#B9C2C7",
-      attributes: ["Extra refrescante", "Menos amargo", "Público joven"],
-      occasions: ["Festival", "Noche", "Primera cerveza"],
-      notes: "Puerta de entrada para 21-28. Tono más gamberro y visual.",
+      id: "hielo",
+      name: "Hielo",
+      family: "Complemento",
+      abv: "—",
+      color: "#5BA4CF",
+      attributes: ["Bolsa lista", "Compra de urgencia", "Margen alto"],
+      occasions: ["Carne asada", "Fiesta improvisada", "Día de calor"],
+      notes:
+        "Nunca se planea y nunca se sustituye: si no hay hielo, se van a otra tienda. Es el producto más defensivo del surtido.",
     },
     {
-      id: "six-noche",
-      name: "Six Noche",
-      family: "Cerveza con tequila",
-      abv: "5,9%",
-      color: "#F2A900",
-      attributes: ["Sabor tequila", "Noche", "Música"],
-      occasions: ["Fiesta", "Festival", "Pre-copa"],
-      notes: "Marca hermana con reglas propias: más energía, menos institucional.",
+      id: "botana-dulce",
+      name: "Botana y dulce",
+      family: "Snack",
+      abv: "—",
+      color: "#F5B301",
+      attributes: ["Compra por impulso", "Sube el ticket", "Anaquel de caja"],
+      occasions: ["Antojo de la tarde", "Camino a casa", "Película en casa"],
+      notes:
+        "Casi nunca es el motivo de entrada, casi siempre acompaña. Todo lo que suba el ticket promedio se juega aquí.",
     },
     {
-      id: "six-clasica",
-      name: "Six Clásica",
-      family: "Lager",
-      abv: "4,1%",
-      color: "#C8102E",
-      attributes: ["Precio accesible", "Cotidiano", "Volumen"],
-      occasions: ["Casa", "Supermercado", "Grupo grande"],
-      notes: "Juega el terreno del día a día, no del premium.",
+      id: "servicios",
+      name: "Servicios",
+      family: "Recargas y pagos",
+      abv: "—",
+      color: "#2B2A25",
+      attributes: ["Recargas", "Pago de servicios", "Sin sorpresas en la comisión"],
+      occasions: ["Se acabaron los datos", "Vence el recibo", "Mandado del domingo"],
+      notes:
+        "Trae a quien no vendría por antojo y crea rutina mensual. Es lo que convierte la tienda en parada fija.",
+    },
+    {
+      id: "emergencia",
+      name: "Abarrote de emergencia",
+      family: "Básicos",
+      abv: "—",
+      color: "#7A8B7F",
+      attributes: ["Presentación chica", "Lo que se acabó", "Abierto cuando nada más"],
+      occasions: ["Se acabó a media receta", "Domingo por la noche", "Antes de que abran"],
+      notes:
+        "No compite con el súper en precio ni en surtido: compite en que está abierto y está cerca.",
     },
   ],
 

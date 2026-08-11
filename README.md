@@ -1,12 +1,18 @@
 # Demo Six
 
-Herramienta interna para llevar una marca de gran consumo por **zona** y por **producto**:
-defines el brand kit una vez, cada mercado sobreescribe solo lo que necesita, y un bot
-genera propuestas de campaña listas para revisar.
+Herramienta interna para llevar una marca de retail por **zona**, por **línea de producto**
+y por **red social**: defines el brand kit una vez, cada región sobreescribe solo lo que
+necesita, y un bot genera propuestas de campaña listas para revisar.
 
-Los datos de ejemplo están montados sobre Six —logo real en `public/brand/`, paleta
-muestreada de él (rojo `#E1211D`, carbón `#2B2A25`)—, pero nada está hardcodeado: la
-marca, el logo, las zonas y los productos se editan desde la propia app.
+Los datos de ejemplo están montados sobre **Six**, la cadena mexicana de tiendas de
+conveniencia (Cuauhtémoc Moctezuma / Heineken México): logo real en `public/brand/`,
+paleta muestreada de él (rojo `#E1211D`, carbón `#2B2A25`), zonas por región de México
+y "productos" entendidos como líneas que se comunican (cerveza fría, hielo, botana,
+servicios, abarrote de emergencia).
+
+Nada está hardcodeado: la marca, el logo, las zonas y las líneas se editan desde la
+propia app. Las notas regulatorias del seed son placeholders orientativos y hay que
+validarlas con legal antes de publicar nada.
 
 ---
 

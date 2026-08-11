@@ -17,12 +17,13 @@ import type { GenerateRequest } from "@/lib/ai/schema";
 import type { Proposal } from "@/lib/types";
 
 const OBJECTIVES = [
+  "Tráfico a tienda",
+  "Subir el ticket promedio",
+  "Activación de ocasión de compra",
+  "Apertura de tienda nueva",
+  "Dar a conocer un servicio",
+  "Promoción de temporada",
   "Notoriedad de marca",
-  "Lanzamiento de producto",
-  "Activación de ocasión de consumo",
-  "Recuperar consumidor perdido",
-  "Tráfico a punto de venta",
-  "Captación de audiencia joven (+21)",
 ];
 
 export default function GeneratePage() {
