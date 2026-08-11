@@ -23,6 +23,36 @@ export type Background = {
 
 export const BACKGROUNDS: Background[] = [
   {
+    id: "tienda-pasillo",
+    label: "Tienda Six: pasillo de botanas y neveras",
+    src: {
+      "post-1x1": "/backgrounds/tienda-pasillo.jpg",
+      "story-9x16": "/backgrounds/tienda-pasillo-9x16.jpg",
+      "banner-16x9": "/backgrounds/tienda-pasillo-16x9.jpg",
+    },
+    tags: [
+      "store",
+      "shop",
+      "convenience",
+      "aisle",
+      "shelf",
+      "shelves",
+      "snacks",
+      "fridge",
+      "cooler",
+      "checkout",
+      "shopping",
+      "customers",
+      "tienda",
+      "neighbourhood",
+      "corner shop",
+      "products",
+      "browsing",
+      "friends",
+      "indoor",
+    ],
+  },
+  {
     id: "mesa-larga-noche",
     label: "Mesa larga de noche, luces cálidas",
     src: {
