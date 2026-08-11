@@ -1,0 +1,287 @@
+{
+  "mx-mexico|six-original|Notoriedad de marca|instagram-feed": {
+    "thinking": "Estoy pensando en cómo posicionar Six en el mercado mexicano, donde la cerveza es parte de la convivencia social prolongada. La marca tiene una oportunidad única como la cerveza neutral que funciona en cualquier contexto, especialmente en reuniones como una carne asada donde cada persona trae su preferencia pero Six es la que todos aceptan sin discusión.\n\nEstoy explorando dos ángulos principales: primero, la idea de la hielera como reflejo de la mesa — distintas marcas, pero Six como la que une sin imponer. Segundo, enfatizar que Six acompaña las horas largas de convivencia, la conversación que se extiende, el ritmo lento de la sobremesa, sin sugerir consumo excesivo sino más bien la cerveza como compañera de la plática. Strangers sharing a bench at a taco stand becomes a way to open your world. The third angle plays on the distinctly Mexican humor of the endless goodbye — that classic moment where someone says they're leaving but stays another forty minutes talking at the door, which speaks to genuine connection beyond just drinking. For the Instagram post, I'm keeping the first 125 characters punchy with a clear hook and soft call-to-action, then adding 3-5 hashtags. The brand voice requires ending with a responsible consumption message, so I'm embedding \"Disfruta con moderación\" right in the caption.\n\nFor the copy structure: headline stays under 8 words without quotes, subheading under 14 words, body runs 2-3 sentences. When describing people in the image prompts, I'm focusing on +25 year-olds but avoiding any logos, text, or packaging details — I won't describe the bottle itself, just the scene around it like condensation on the table, people laughing, glassware without branding.\n\nFor the cooler concept, I'm being careful to frame it as scene-setting rather than product focus: \"an open cooler brimming with crushed ice (no labels or packaging visible)\" keeps the visual anchor without emphasizing the packaging. The caption needs to land the hook within 125 characters, so I'm testing \"En esta hielera caben todas las marcas. Y todas caben en la misma mesa.\" which comes in around 72 characters total.\n\nI'm also working through alternative hooks—one about the 1 AM moment at a street food stand where nobody asks where you're coming from, and another about how the Mexican \"we're leaving\" actually lasts an hour and a half. I'll pair these with 3-5 hashtags that blend brand, occasion, and cultural moments like #AbreTuMundo, #CarnitaAsada, and #LaQueJuntaATodos, then close with \"Disfruta con moderación.\"\n\nFor the headlines, I'm testing shorter versions: \"Distintas etiquetas, misma mesa\" works better than the longer original, and I have \"La banca no pide apellidos\" and \"El adiós más largo del mundo\" as alternatives. The subheads need to stay under 14 words, and I'm refining one about how the green bottle is what everyone accepts at a carnita asada.\n\nI'm also working through the call-to-action options—something soft and natural like \"Etiqueta a tu banda\" or \"Etiqueta al del asador\"—and planning how the brand voice should respond in the community with warmth and humor. For tracking, I'm looking at incremental reach, saves, share rates, and brand lift metrics around the idea of bringing people together.\n\nNow I'm drafting the image prompts in English to capture authentic backyard and street scenes—golden hour lighting, mismatched plastic chairs, coolers full of ice, people in their late twenties to forties laughing around tables with grilled food, all without any visible logos or packaging.…",
+    "usage": {
+      "input": 2897,
+      "output": 6552
+    },
+    "proposals": [
+      {
+        "concept": "El pacto de la hielera",
+        "rationale": "En México cada invitado llega con su marca y la hielera termina siendo un mosaico de etiquetas: en vez de pelear contra la fuerte cultura cervecera local, la convertimos en la prueba de que Six es la que cabe en cualquier mesa sin discutirle a nadie su equipo.",
+        "headline": "Distintas etiquetas, misma mesa",
+        "subhead": "En la hielera caben todas. En la plática, también.",
+        "body": "Aquí nadie se pelea por lo que trajo cada quien: se echa al hielo y ya. Cinco marcas distintas, un solo asador y la misma plática hasta que se acaba la carne. Eso es abrir mundo, aunque sea en el patio de tu tía. Disfruta con moderación.",
+        "cta": "Etiqueta a tu banda",
+        "hashtags": [
+          "AbreTuMundo",
+          "Six",
+          "LaQueJuntaATodos",
+          "CarnitaAsada"
+        ],
+        "caption": "En esta hielera caben todas las marcas. Y todas caben en la misma mesa.\n\nAquí nadie discute lo que trajo cada quien: se echa al hielo y ya. Cinco etiquetas distintas, un solo asador, la misma plática hasta que se acaba la carne. Así se abre mundo, aunque sea en el patio de tu tía.\n\nEtiqueta a tu banda de los sábados 👇\nDisfruta con moderación.\n\n#AbreTuMundo #Six #LaQueJuntaATodos #CarnitaAsada",
+        "communityReply": "Jaja, así es: la hielera es el único lugar donde todos nos ponemos de acuerdo sin votar. Salúdanos al del asador y disfruten con moderación 🍻",
+        "imagePrompt": "Backyard gathering in a Mexico City neighborhood at golden hour, corrugated roof and painted brick wall, warm string lights just switched on, mismatched plastic chairs around a folding table with grilled food and salsas in small bowls, an open cooler brimming with crushed ice on the tiled floor, four adults between 28 and 45 mid-laugh, one tending a charcoal grill with soft smoke rising, warm 50mm shot, shallow depth of field, natural documentary feel, no labels, no packaging, no signage, no text anywhere in frame",
+        "kpis": [
+          "Alcance incremental y frecuencia sobre audiencia 21-35 urbana",
+          "Ratio de guardados + compartidos sobre alcance (objetivo: superar el promedio del feed)",
+          "Comentarios con etiquetado de terceros como proxy de resonancia del claim 'La que junta a todos'"
+        ]
+      },
+      {
+        "concept": "La banca no pide apellidos",
+        "rationale": "El after del concierto en el puesto de tacos obliga a compartir una banca de metro y medio con desconocidos, un ritual mexicano de noche que traduce 'Abre tu mundo' sin necesidad de viajes ni aeropuertos.",
+        "headline": "La banca no pide apellidos",
+        "subhead": "Cinco desconocidos, un puesto de tacos y la misma canción pegada.",
+        "body": "Saliste del concierto con la voz ronca y acabaste en una banca con gente que no conocías hace dos horas. Nadie preguntó de dónde vienes: se preguntó de qué eran los tacos. Ahí es donde el mundo se abre solito. Disfruta con moderación.",
+        "cta": "Guarda esta idea",
+        "hashtags": [
+          "AbreTuMundo",
+          "Six",
+          "TacosDeMadrugada",
+          "SalidaDeConcierto"
+        ],
+        "caption": "A la 1 de la mañana, la banca del puesto no pregunta de dónde vienes.\n\nSales del concierto con la voz ronca y terminas hombro con hombro con gente que no conocías hace dos horas. Nadie pide apellidos: se pide otra orden y se comenta el setlist. Ahí el mundo se abre solito.\n\nGuarda esta idea para la próxima salida.\nDisfruta con moderación.\n\n#AbreTuMundo #Six #TacosDeMadrugada #SalidaDeConcierto",
+        "communityReply": "Las mejores pláticas empiezan preguntando de qué son los tacos, ya lo sabemos. Cuéntanos cuál fue tu último after y disfruta con moderación 🍻",
+        "imagePrompt": "Street food stand at 1am in a Mexican city, warm orange bulb hanging above a narrow shared metal counter, steam rising from a hot plancha, five adults between 26 and 38 leaning shoulder to shoulder eating standing up, some still wearing wristbands from a live show, wet asphalt reflecting neon shop light in the background, handheld documentary 35mm look, high ISO grain, night ambience, no labels, no packaging, no signage, no text anywhere in frame",
+        "kpis": [
+          "Alcance y views únicos en franja nocturna (22h-2h)",
+          "Guardados como señal de intención de plan futuro",
+          "Sentiment positivo en comentarios y menciones espontáneas de la ocasión 'after de concierto'"
+        ]
+      },
+      {
+        "concept": "El adiós más largo",
+        "rationale": "La convivencia mexicana no se estira con más rondas, se estira en la puerta: el 'ya nos vamos' que dura hora y media es el retrato exacto de una cerveza que acompaña horas de plática, no de consumo.",
+        "headline": "El adiós más largo del mundo",
+        "subhead": "Se acabó la carne y todavía faltaba lo mejor: la despedida.",
+        "body": "Dijiste 'ya nos vamos' hace hora y media y aquí seguimos, parados en la puerta, sacando el mejor tema de la noche. En otros lados la reunión se acaba cuando se acaba. Aquí se acaba tres veces. Disfruta con moderación.",
+        "cta": "Etiqueta al eterno",
+        "hashtags": [
+          "AbreTuMundo",
+          "Six",
+          "LaQueJuntaATodos",
+          "Sobremesa"
+        ],
+        "caption": "El \"ya nos vamos\" mexicano dura hora y media. Y está bien.\n\nSe acabó la carne, se acabó la playlist, y el mejor tema de la noche aparece justo en la puerta. En otros lados la reunión termina cuando termina; aquí termina tres veces.\n\nEtiqueta al eterno del grupo, ese que nunca se va a la primera 👇\nDisfruta con moderación.\n\n#AbreTuMundo #Six #LaQueJuntaATodos #Sobremesa",
+        "communityReply": "Todos tenemos uno. Y si estás leyendo esto pensando \"yo no soy\", probablemente eres tú 😄 Gracias por pasar el rato con nosotros, disfruta con moderación.",
+        "imagePrompt": "Night street goodbye scene outside a house in a Mexican residential neighborhood, warm porch light and a streetlamp casting soft pools of light on the sidewalk, a group of five adults between 28 and 42 still standing and talking animatedly on the pavement, one leaning on the low garden wall, relaxed body language, someone holding a jacket over the arm, no vehicles in frame, cinematic 35mm, warm shadows, quiet late-night atmosphere, no labels, no packaging, no signage, no text anywhere in frame",
+        "kpis": [
+          "Tasa de comentarios con etiquetado (objetivo principal de la pieza)",
+          "Alcance orgánico incremental vía compartidos en Stories",
+          "Recuerdo de marca asistido en brand lift asociado al claim 'La que junta a todos'"
+        ]
+      }
+    ],
+    "recordedAt": "2026-08-11T19:48:20.509Z"
+  },
+  "mx-mexico|six-original|Notoriedad de marca|facebook": {
+    "thinking": "Estoy pensando en la estrategia para esta cerveza: se trata de una bebida para consumo prolongado en reuniones, no algo rápido, y enfrenta una competencia cervecera local muy establecida. Para Facebook, necesito un copy más extenso y accesible, con un llamado a la acción práctico como \"Encuentra dónde comprarla\" sin usar lenguaje juvenil. Estoy considerando tres ángulos diferentes, empezando con uno llamado \"La hora sin nombre\".\n\nEse primer ángulo captura ese momento indefinido entre tarde y noche en una carne asada donde la sobremesa se extiende y Six acompaña las horas largas. El segundo ángulo es más humorístico: el invitado que llega \"solo 20 minutos\" pero termina quedándose hasta las 11 de la noche, un personaje reconocible que refleja cómo la mesa junta a todos. Para el tercero, en lugar de competir contra la cultura cervecera local, prefiero sumarse a ella con la idea de \"En la mesa caben todas\" o la hielera democrática donde conviven distintas marcas y personas, respetando la cultura local sin sonar pretencioso.\n\nAhora estoy considerando tres ocasiones distintas para mapear cada propuesta: la carne asada con su sobremesa larga, la taquería de noche con su ruido y movimiento, y el concierto con su energía. La propuesta de \"Paso rápido y me voy\" funciona mejor en la taquería nocturna, donde ese \"ya nos vamos\" se convierte en dos horas más en la esquina de los tacos. Y para el concierto, la idea de \"Después del último acorde\" con la hielera plural donde caben todas las cervezas favoritas de cada quien.\n\nTengo que incluir la leyenda de moderación obligatoria en audiovisuales — \"Disfruta con moderación\" en el body o caption, y asegurarme de que no haya menores de 25 en escena. Para Facebook, el caption puede ser más largo con una historia breve y un máximo de un hashtag, con un CTA corto de 2-4 palabras como \"Encuentra tu bar\" o \"Busca la verde\". Los prompts de imagen van en inglés, enfocándose solo en la escena y la gente.\n\nAhora estoy trabajando en los copies. Para la primera propuesta \"La hora sin nombre\", tengo el headline de 8 palabras: \"Ya no es tarde, todavía no es noche\", y el subhead de 12 palabras sobre la sobremesa que no quiere terminar. Estoy desarrollando el body con 2-3 frases que hablen sobre cómo en México nadie se levanta de la mesa a la primera. Estoy ajustando el copy para Facebook, acortando a 125 caracteres pero con un gancho más fuerte al inicio. Para medir el éxito, me enfoco en métricas como guardados, compartidos, comentarios y recuerdo de marca. Ahora estoy desarrollando la segunda propuesta alrededor de los tacos nocturnos, con un titular que juega con la idea de que nadie se va rápido de esa esquina.\n\nPara el cuerpo, estoy usando humor observacional sobre ese amigo que siempre dice que se va pero termina pidiendo una orden más. El CTA es clave aquí—necesito algo accionable en Facebook, así que en lugar de solo \"Encuentra tu taquería\", voy con \"Encuentra dónde pedirla\" para darle más utilidad. Estoy considerando si \"Etiqueta a ese amigo\" sería mejor para engagement, pero prefiero mantener algo más directo y útil.\n\nAhora paso a la tercera propuesta sobre el tema de conciertos y bares, con el titular \"En la hielera caben todas\" que juega con la idea de que hay cerveza para todos. \"En la hielera caben todas\" es la más diferenciadora porque enfrenta directamente el desafío de la competencia local fuerte, y funciona bien en Facebook con ese tono de orgullo comunitario, así que la pondría primero, seguida de \"La hora sin nombre\" y luego el spot rápido. Para la imagen de la hielera, evito mostrar botellas de otras marcas y en su lugar enfoco en el hielo y las manos alcanzando adentro, cuidando de no sugerir consumo excesivo.…",
+    "usage": {
+      "input": 2859,
+      "output": 6904
+    },
+    "proposals": [
+      {
+        "concept": "En la hielera caben todas",
+        "rationale": "El obstáculo real en México no es que no conozcan Six, es que ya tienen su cerveza de toda la vida; en lugar de pelear esa lealtad, la pieza la reconoce y pide un lugar en la hielera, que es exactamente lo que hace creíble el claim 'La que junta a todos'.",
+        "headline": "En la hielera caben todas",
+        "subhead": "Cada quien con su favorita. La mesa sigue siendo la misma.",
+        "body": "Aquí nadie te va a decir cuál cerveza tomar: en México se sabe de cerveza y eso se respeta. Nosotros solo pedimos un lugar en la hielera, al lado de la de siempre, para las horas largas de después del concierto. Al final la plática la hacen las personas, no la etiqueta. Disfruta con moderación.",
+        "cta": "Encuentra tu bar",
+        "hashtags": [
+          "LaQueJuntaATodos"
+        ],
+        "caption": "En la hielera caben todas. Y qué bueno.\n\nSaliendo del concierto siempre pasa lo mismo: alguien consigue hielo, alguien presta el patio y en veinte minutos hay seis cervezas distintas enfriándose en la misma hielera. Nadie discute cuál es mejor. Se discute el setlist, quién llegó tarde y por qué la bocina suena mejor en la cochera.\n\nLlevamos 150 años haciendo lager, y en todo ese tiempo aprendimos algo bastante simple: la cerveza no junta a la gente, la gente se junta y la cerveza aguanta ahí las horas que hagan falta.\n\nGracias por hacernos un espacio entre el hielo. 🍺 Encuentra tu bar y ve por la fría. Disfruta con moderación.",
+        "communityReply": "Jajaja nos encanta que hasta el orden de la hielera se defienda con argumentos. Tú déjanos un cachito de hielo al fondo y nosotros nos portamos bien. 🙌 Disfruta con moderación.",
+        "imagePrompt": "Warm night scene on a rooftop patio in a Mexico City neighborhood, right after a live show. A mixed group of adults in their thirties and forties sit on plastic chairs and an old sofa around a battered metal ice cooler filled with crushed ice, condensation on the metal. A portable speaker rests on a stool, string lights and a neighbor's laundry line overhead, city rooftops and water tanks in the background. One person is mid-laugh, another leans in to talk over the music, hands gesturing. Shot on 35mm, natural warm tungsten and string-light glow, shallow depth of field, candid documentary feel, slight grain, no readable signage.",
+        "kpis": [
+          "Alcance incremental y frecuencia sobre audiencia 25-35 urbana",
+          "Tasa de compartidos del post (proxy de orgullo/identificación cultural)",
+          "Lift de recuerdo de marca en brand study vs. celda de control"
+        ]
+      },
+      {
+        "concept": "La hora sin nombre",
+        "rationale": "En México la convivencia dura horas y el momento más valioso es esa franja de la asada en que ya se apagó el asador pero nadie se levanta; hablar de la sobremesa larga en vez del primer brindis es lo que conecta con que la cerveza acompaña horas, no minutos.",
+        "headline": "Ya no es tarde, todavía no es noche",
+        "subhead": "La sobremesa que empezó con carne asada y sigue sin querer terminarse.",
+        "body": "Se apagó el asador, quedan dos tortillas y nadie hace el intento de levantarse. Alguien pone otra canción, alguien saca la anécdota de siempre y la plática arranca otra vez, ahora sí en serio. Nuestra lager está hecha justo para esas horas: fría, ligera y sin prisa. Disfruta con moderación.",
+        "cta": "Mira dónde comprarla",
+        "hashtags": [
+          "AbreTuMundo"
+        ],
+        "caption": "Hay una hora en la carnita asada que no tiene nombre.\n\nYa no es la tarde, porque el asador está apagado y quedan dos tortillas duras en la canasta. Pero tampoco es la noche, porque nadie ha dicho \"bueno, ya nos vamos\". Es esa hora en que alguien pone otra canción, alguien cuenta por tercera vez la misma anécdota y la plática se pone buena de verdad.\n\nEsa hora es la razón por la que llevamos 150 años cuidando nuestra lager: ligera y bien fría para que aguante contigo la sobremesa completa, no nada más el primer trago.\n\n¿Cuál es la mejor hora de tu asada? Mira dónde comprarla y guárdanos un lugar en la mesa. Disfruta con moderación.",
+        "communityReply": "Esa hora es la mejor y nadie la agenda, simplemente pasa. Nosotros llevamos la fría, tú pones la playlist y el que cuenta la anécdota. 🔥 Disfruta con moderación.",
+        "imagePrompt": "Late afternoon turning into evening in a modest concrete backyard in Monterrey. Six adults between 30 and 45 sit around a folding table with a plastic tablecloth, empty plates, a basket of tortillas, salsa bowls and lime halves. Behind them a cooling brick grill with faint smoke, a fan, potted plants and a cinder-block wall. Golden low sun cuts across the table, long shadows, one person leaning back laughing with an arm over a chair, another resting elbows on the table listening. Documentary photography, 50mm, warm natural light, gentle film grain, unposed, no signage or text visible.",
+        "kpis": [
+          "Alcance y frecuencia efectiva en audiencia 25-35",
+          "Comentarios con menciones de ocasión propia (carne asada/sobremesa) como señal de identificación",
+          "Lift de atributo 'la cerveza para la convivencia larga' en tracking de marca"
+        ]
+      },
+      {
+        "concept": "Paso rápido y me voy",
+        "rationale": "El personaje que llega diciendo 'nomás una' y sigue en la esquina de los tacos dos horas después es humor observacional puro de la noche urbana mexicana, y traduce el insight de la convivencia larga en una situación que la gente reconoce y etiqueta a un amigo específico.",
+        "headline": "Dijo paso rápido. Van dos horas",
+        "subhead": "En la esquina de los tacos nadie se despide de una sola vez.",
+        "body": "Todos tenemos a ese amigo que llega diciendo \"nomás paso rápido\" y acaba pidiendo la última orden de suadero mientras el taquero ya está limpiando la plancha. No es que no se quiera ir: es que la plática se puso buena. Nosotros venimos preparados para esas dos horas de más. Disfruta con moderación.",
+        "cta": "Encuentra dónde pedirla",
+        "hashtags": [],
+        "caption": "\"Nomás paso rápido y me voy.\" Van dos horas.\n\nEs el mismo guion siempre: llega con el casco de la bici en la mano diciendo que no se queda, se recarga en la esquina de la taquería, se ríe de un chisme y ya para cuando se dio cuenta va por la segunda orden de suadero y el taquero está raspando la plancha.\n\nNo es falta de palabra. Es que en México la despedida es un trámite largo: hay que despedirse, luego platicar de la despedida y luego despedirse otra vez ya en serio.\n\nEtiqueta a ese amigo, sabes perfecto quién es. 🌮 Encuentra dónde pedirla bien fría y disfruta con moderación.",
+        "communityReply": "Nos late que todos ya pensaron en la misma persona jaja. Dile que el taquero también lo extraña. 🌮 Nos vemos en la esquina, siempre con moderación.",
+        "imagePrompt": "Night street-food corner in a busy Mexico City neighborhood. Four adults in their early thirties to forties stand around a small taco stand counter, elbows on the stainless steel, paper plates and lime wedges in front of them. Steam rises from the griddle, a bare bulb and neon glow from a nearby shopfront light their faces, parked cars and a metal shutter in the soft background bokeh. One person gestures mid-story while another laughs with head tilted back; the taquero wipes the griddle behind them. Candid street photography, 35mm, mixed warm bulb and cool street light, slight motion blur in the background, grainy, no readable signs or logos.",
+        "kpis": [
+          "Alcance orgánico y compartidos/etiquetas en comentarios",
+          "Ratio de comentarios con etiqueta de un amigo (identificación con el personaje)",
+          "Lift de notoriedad espontánea en audiencia 25-35 urbana"
+        ]
+      }
+    ],
+    "recordedAt": "2026-08-11T19:50:07.027Z"
+  },
+  "es-iberia|six-original|Notoriedad de marca|instagram-feed": {
+    "thinking": "Estoy pensando en el verdadero significado detrás de \"una caña\" — no es realmente sobre la cerveza, sino sobre la necesidad de conectar con alguien, de recuperar ese tiempo compartido. El lenguaje funciona como código, donde esa frase simple carga todo el peso emocional de \"te echo de menos\" y \"necesito hablar contigo\". Voy a explorar este ángulo lingüístico y semántico para desarrollar tres propuestas distintas que jueguen con esta idea.\n\nAhora estoy considerando otros ángulos: la geografía del encuentro — ese bar equidistante entre dos barrios donde se citan amigos que viven lejos; la particularidad del calendario español donde un martes cualquiera es válido para quedar, no necesariamente el viernes; y la dinámica de la mesa que crece, donde cuatro personas se convierten en ocho con sillas robadas de otras mesas. Descarto el ángulo de \"solo una y me voy\" porque corre el riesgo de implicar consumo excesivo, así que me enfoco en los ángulos más limpios y seguros regulatoriamente.\n\nEl ángulo más fuerte que veo es el de los nombres regionales: caña, zurito, corto, tubo, fino, imperial — el mismo gesto con veinte nombres distintos según la ciudad. Eso es profundamente ibérico, intraducible fuera de la región, y conecta perfectamente con la idea de \"Open Your World\" — un mismo ritual, múltiples identidades locales. Estoy eligiendo entre dos direcciones principales: el código sentimental detrás de la palabra \"caña\" como lenguaje emocional, o la geografía lingüística de Iberia donde cada lugar tiene su propio nombre para lo mismo. raza after-work de martes en la imagen. Ordenar por recomendación: A, C, B? Para notoriedad, A es el más potente y compartible. B es muy sharable también (mapa de nombres). C es cálido. Orden: A, B, C. Hmm... B con hashtags y CTA \"etiqueta a quien dice zurito\" es muy engagement. Pero el objetivo es notoriedad; A es el gran insight. Orden: A, B, C.\n\nAhora Instagram Feed: primeros 125 caracteres con el gancho entero. Copy cuidado, imagen manda, CTA suave, 3-5 hashtags al final, mensaje de consumo responsable — el brand voice dice \"rematar siempre con el mensaje de consumo responsable\". Lo pongo en el caption antes de los hashtags: \"Bebe con moderación. Dis\n\nI'm settling on the order A, B, C based on impact and shareability, with A being the strongest insight for reach. Now I'm drafting the Instagram caption—keeping it tight within 125 characters for the hook, letting the image do the heavy lifting, adding a soft call-to-action with 3-5 hashtags, and closing with the responsible drinking message as the brand requires.\n\nFor the first concept, I'm testing \"Una caña casi nunca es una caña\" as the headline—exactly 7 words—and building out the subheading to explore what we really mean when we order a beer.\n\nThe body copy should stay focused on 2-3 sentences about the real reason people gather, keeping it grounded and authentic. The call-to-action is simple: \"Etiqueta a quien toca.\" For the caption, I'm starting with the hook about why people actually stay—around 87 characters—and then continuing from there.\n\nI'm selecting hashtags that work for Instagram without special characters: six, OpenYourWorld, UnaCaña, Terraceo, and Afterwork. The community reply should sound like the brand speaking with humor, acknowledging how these casual drinks turn into catching up sessions, with a reminder about moderation. For the image, I need to describe the scene in English—looks like that's being cut off mid-thought. I'm reconsidering the product placement strategy—instead of showing the beer directly, I'll focus on the scene composition with subtle visual cues like condensation marks on the table. Now I'm shifting to the second concept proposal, working through the headline options for a campaign built around regional Spanish beer terminology, aiming for something punchy that captures the different names for the same drink. Estoy refinando los hashtags para mezclar la marca con el contexto social, considerando que \"fino\" tiene significados diferentes según la región. También estoy invitando a la comunidad a compartir cómo se dice en sus ciudades para ampliar la conversación más allá de la península.\n\nPara la imagen, necesito una escena de bar clásico ibérico con un grupo de adultos en sus treinta y cuarenta años riendo juntos alrededor de una barra de zinc, con iluminación cálida y ambiente de reportaje fotográfico.\n\nAhora estoy explorando una tercera propuesta basada en la idea de \"la silla de más\" — ese momento donde siempre cabe una persona más en la mesa, incluso si hay que robar una silla de al lado. Estoy añadiendo hashtags adicionales como Terraceo y PlanDeMartes, y definiendo una respuesta de comunidad que juega con ese amigo que se queda más de lo planeado. Para la imagen, visualizo una terraza al atardecer con sillas desparejadas y un grupo de adultos de distintas edades disfrutando juntos. También estoy considerando los KPIs clave: alcance, guardados y compartidos, comentarios por ciudades, recuerdo de marca y visualizaciones.…",
+    "usage": {
+      "input": 2931,
+      "output": 7110
+    },
+    "proposals": [
+      {
+        "concept": "Una caña no es una caña",
+        "rationale": "En Iberia se pide 'una caña' para decir 'quiero verte': la frase nombra la cita, no la bebida. La campaña pone negro sobre blanco ese código local, algo que en cualquier otro mercado sería literal y no significaría nada.",
+        "headline": "Una caña casi nunca es una caña",
+        "subhead": "Aquí pedimos cerveza cuando lo que queremos decir es te echo de menos.",
+        "body": "Nadie queda por la cerveza. Se queda por lo que pasa alrededor de la mesa mientras la conversación se pone al día de tres meses. Buena compañía, buena cerveza. Disfruta con moderación.",
+        "cta": "Etiqueta a quien toca",
+        "hashtags": [
+          "six",
+          "OpenYourWorld",
+          "UnaCaña",
+          "Terraceo",
+          "Afterwork"
+        ],
+        "caption": "Aquí nadie queda por la cerveza. Queda por la persona que hay al otro lado de la mesa. La caña es solo la excusa para sentarse, y funciona desde hace décadas. Etiqueta a quien le debes una. Disfruta con moderación. #six #OpenYourWorld #UnaCaña #Terraceo #Afterwork",
+        "communityReply": "Nos ha pasado: quedas para una y acabas poniéndote al día de tres años. Que la próxima la pidáis pronto 🍺 Siempre con moderación.",
+        "imagePrompt": "Golden late-afternoon sunlight on a small city terrace in a Spanish old town, two friends in their mid-thirties leaning across a worn marble-top cafe table mid-conversation, one laughing with a hand raised, mismatched wooden chairs, blurred background of tiled facades and a narrow street, warm shallow depth of field, 50mm, natural light, candid documentary feel, square framing",
+        "kpis": [
+          "Alcance incremental y impresiones únicas del post",
+          "Ratio de guardados + compartidos sobre alcance",
+          "Brand lift en recuerdo espontáneo de marca (test pre/post)"
+        ]
+      },
+      {
+        "concept": "Caña, zurito, tubo, fino",
+        "rationale": "El mismo gesto cambia de nombre cada cien kilómetros de Iberia: zurito en Bilbao, corto en Zaragoza, tubo en Sevilla, fino o imperial en Portugal. Es la prueba local de que la cerveza aquí es idioma de encuentro, no producto, y solo tiene sentido en esta zona.",
+        "headline": "Caña, zurito, tubo, fino. Mismo plan",
+        "subhead": "Cambia la palabra en cada barra. No cambia lo que significa: quedamos.",
+        "body": "De Bilbao a Lisboa, cada barra tiene su palabra para lo mismo. Y todas quieren decir: ven, que hay sitio en la mesa. Refresca tu mundo, con moderación.",
+        "cta": "Añade el tuyo",
+        "hashtags": [
+          "six",
+          "RefrescaTuMundo",
+          "Zurito",
+          "DeCañas",
+          "Afterwork"
+        ],
+        "caption": "En Bilbao zurito, en Zaragoza corto, en Lisboa fino. Veinte palabras distintas para pedir exactamente lo mismo: verte. Nos faltan las de tu ciudad, déjalas en comentarios. Disfruta con moderación. #six #RefrescaTuMundo #Zurito #DeCañas #Afterwork",
+        "communityReply": "Apuntado. Nos queda media península por completar, así que gracias por sumar 🍻 Y recuerda: con moderación.",
+        "imagePrompt": "Long zinc bar counter inside a classic Iberian city bar, five adults in their thirties and forties standing shoulder to shoulder mid-laugh, glazed tiled walls, warm hanging lamps, marble surface with rings of condensation, early evening mixed light through a doorway, candid 35mm reportage, shallow focus on the group, square framing",
+        "kpis": [
+          "Comentarios por publicación (nombres de ciudad aportados)",
+          "Alcance orgánico frente a media del feed del canal",
+          "Crecimiento neto de seguidores en la semana de publicación"
+        ]
+      },
+      {
+        "concept": "La silla de más",
+        "rationale": "En la terraza española un plan de dos dura hasta que alguien pasa por delante: el grupo se agranda robando sillas de la mesa vecina. Es el 'gente distinta en la misma mesa' de la marca contado con un gesto que aquí todo el mundo ha hecho.",
+        "headline": "La mesa siempre da para una silla más",
+        "subhead": "Empezáis dos. Acabáis seis y una silla robada de la mesa de al lado.",
+        "body": "Aquí un plan de dos no es un plan de dos: alguien pasaba por delante, se acerca una silla y la mesa se hace grande sola. Buena compañía, buena cerveza. Bebe con moderación.",
+        "cta": "Etiqueta al que aparece",
+        "hashtags": [
+          "six",
+          "OpenYourWorld",
+          "Terraceo",
+          "PlanDeMartes",
+          "BuenaCompania"
+        ],
+        "caption": "Un plan de dos, aquí, es un plan de dos hasta que alguien pasa por delante de la terraza. Entonces aparece una silla, luego otra, y el martes se convierte en el mejor día de la semana. Etiqueta al que siempre aparece. Bebe con moderación. #six #OpenYourWorld #Terraceo #PlanDeMartes #BuenaCompania",
+        "communityReply": "Ese amigo que solo se sienta un momento y sigue en la mesa dos horas después: leyenda local. Que no falte nunca 🍺 Con cabeza, siempre.",
+        "imagePrompt": "City terrace at blue hour on a weekday, six adults between late twenties and forties around a small round table clearly built for four, two extra chairs dragged in from the neighbouring table, everyone leaning inward mid-story, string of warm cafe lights overhead, apartment balconies softly out of focus behind, natural available light, 35mm candid, slight motion in one gesture, square framing",
+        "kpis": [
+          "Compartidos en Stories del post original",
+          "Menciones y etiquetados de perfiles en comentarios",
+          "Alcance sobre público no seguidor"
+        ]
+      }
+    ],
+    "recordedAt": "2026-08-11T19:51:50.211Z"
+  },
+  "es-iberia|six-original|Notoriedad de marca|facebook": {
+    "thinking": "Estoy pensando en tres ángulos distintos para una campaña en Facebook dirigida a España, basándome en el insight de que \"una caña\" es el pretexto social para ver a alguien. El primer enfoque juega con \"el pretexto\" — la idea de que esa frase casual esconde un significado más profundo, una forma de decir \"te echo de menos\" sin decirlo directamente. Voy a explorar el humor observacional de traducir lo que realmente decimos versus lo que queremos decir.\n\nEl segundo ángulo se centra en esos planes de entre semana, especialmente el jueves, donde quedas \"un ratito\" pero acabas cerrando la terraza — el enfoque aquí es la conversación que se alarga, no el consumo de bebidas. Y el tercero juega con la idea de la mesa que crece, esa capacidad ibérica de añadir sillas y juntar a gente que no se hubiera conocido, como cuando el bar reúne a hinchas rivales o la comida de fin de semana se expande.\n\nHe descartado algunos ángulos que se enfocaban demasiado en el producto o en vincular el momento con el éxito social, porque el insight real está en que el momento y la conexión humana importan más que cualquier otra cosa.\n\nAhora estoy definiendo los detalles técnicos: el titular debe ser máximo 8 palabras sin comillas, el subtítulo 14 palabras, el cuerpo 2-3 frases. Para Facebook, la caption puede ser más larga con una historia breve, y necesito incluir un mensaje de consumo responsable al final junto con el CTA \"Encuentra tu bar\". En la descripción de la imagen, voy a evitar mostrar botellas o packaging específico — mejor enfocarse en la escena con personas mayores de 25 años, vasos genéricos en la mesa, sin logos ni texto visible. Tracking brand lift, share rates, and tagged comments as KPIs. Now I'm sketching three campaign concepts: the first plays on how \"una caña\" means both a beer and a longing to see someone, with the hook \"Una caña nunca es una caña\" and a CTA to find your bar. The second concept centers on Thursday as an excuse to meet up, emphasizing how a quick terrace moment stretches the whole week. The third concept is just starting to take shape.\n\nFor the CTAs, I'm settling on utility-focused options that Facebook prefers: \"Encuentra tu bar,\" \"Busca tu terraza,\" and \"Mira dónde comprarla.\" I'm ranking the first concept as strongest because it hits the insight most directly, then weighing whether \"Una silla más\" or \"El jueves\" works better as the second option—the chair concept connects well with the \"Open Your World\" positioning.…",
+    "usage": {
+      "input": 2894,
+      "output": 5819
+    },
+    "proposals": [
+      {
+        "concept": "Traducción simultánea",
+        "rationale": "El insight local dice que la cerveza es el pretexto, no el fin: aquí se pide una caña para ver a alguien. La idea convierte esa frase cifrada —tan española que no necesita explicación— en el propio mensaje de marca, sin hablar de producto.",
+        "headline": "Una caña casi nunca es una caña",
+        "subhead": "Es la forma más corta de decirle a alguien que te apetece verle.",
+        "body": "Aquí no decimos «te echo de menos»: decimos «¿nos tomamos una caña?». Y funciona igual, o mejor, porque acaba con los dos sentados en la misma mesa. El pretexto es la cerveza, el plan eres tú.",
+        "cta": "Encuentra tu bar",
+        "hashtags": [
+          "OpenYourWorld"
+        ],
+        "caption": "Una caña casi nunca es una caña. Es «cuéntame cómo estás», «hace mil que no te veo» y «hoy salgo aunque sea miércoles», todo en tres palabras.\n\nLo bueno del idioma que hablamos aquí es que nadie tiene que explicar nada: mandas cuatro letras, la otra persona dice a qué hora, y ya está montado el plan. La cerveza es la excusa; lo que pasa alrededor de la mesa es el motivo.\n\n¿A quién le debes una? Etiquétale aquí y que se dé por avisado. Encuentra tu bar más cercano en el enlace.\n\nDisfruta de Six de forma responsable. Contenido para mayores de 18 años.",
+        "communityReply": "Nos encanta que lo digáis vosotros mejor que nosotros 😄 Que esa caña pendiente no se quede en el chat: poned día y hora, que es la parte difícil. Con moderación y sin coger el coche, que del bar a casa se va mejor andando.",
+        "imagePrompt": "Two friends in their mid-thirties sitting at a small round marble table on a narrow city terrace in Madrid, late afternoon golden sunlight raking across the facade behind them, one leaning in mid-sentence and the other laughing with a hand on the table, plain generic glassware and a little dish of olives between them, warm terracotta and cream building tones, shallow depth of field, 50mm lens, natural documentary photography, relaxed unposed body language, square 1:1 framing",
+        "kpis": [
+          "Alcance incremental y frecuencia media sobre público 25-40 segmentado +18",
+          "Comentarios con etiquetado de un amigo (tag rate) por 1.000 impresiones",
+          "Brand lift de recuerdo de marca en encuesta post-campaña"
+        ]
+      },
+      {
+        "concept": "El jueves ya cuenta",
+        "rationale": "La audiencia de Iberia sale entre semana, y el insight local pone el momento por encima del producto: aquí el mérito no es la ocasión especial, es haber salido un jueves a las ocho. Reivindicamos ese día como plan legítimo, no como ensayo del fin de semana.",
+        "headline": "El jueves también es un plan",
+        "subhead": "No hace falta esperar al sábado para tener algo que contar.",
+        "body": "Dijiste «un rato» y eran las nueve y media hablando de la vida en una terraza. No pasó nada especial: solo que estabais ahí, en mitad de la semana, sin motivo. Los mejores planes de Iberia empiezan con «me escapo un ratito».",
+        "cta": "Busca tu terraza",
+        "hashtags": [],
+        "caption": "El jueves también es un plan.\n\nAquí hemos aprendido algo que en otros sitios cuesta explicar: no hace falta esperar al sábado. Se sale a las ocho, se dice «solo un rato», se pilla la mesa de la esquina y de repente son las nueve y media y seguís hablando de cosas que no dan para mensaje de móvil.\n\nNo se celebra nada. Es martes, o jueves, y ya está. Esa es la gracia.\n\nEncuentra una terraza cerca en el enlace y salva la semana por la mitad.\n\nDisfruta de Six de forma responsable. Contenido para mayores de 18 años.",
+        "communityReply": "«Solo un ratito» es la mentira más bonita que se dice en este país 😄 Nosotros también caemos. Eso sí: con calma, con moderación y volviendo a casa sin coche. Mañana hay que madrugar y lo sabes.",
+        "imagePrompt": "A small group of four adults in their early thirties and forties standing and sitting around a high table on a Barcelona sidewalk terrace on a weekday evening, warm low sun between buildings, one person still holding a work tote bag over the shoulder, plain unmarked glasses on the table, easy conversation and open gestures, city life blurred in the background with pedestrians walking past, 35mm lens, natural available light, candid editorial photography, square 1:1 framing",
+        "kpis": [
+          "Alcance y cobertura útil en franja de emisión jueves 17:00-21:00",
+          "Tasa de compartidos (shares) sobre alcance orgánico",
+          "Recuerdo publicitario asociado a la ocasión after-work en brand tracking"
+        ]
+      },
+      {
+        "concept": "Una silla más",
+        "rationale": "En Iberia la mesa es elástica: el camarero arrima otra mesa, aparece una silla de la barra y de pronto sois nueve sin que nadie lo haya planeado. Ese gesto local es la prueba física de que aquí importa el encuentro, no la consumición.",
+        "headline": "Aquí las mesas crecen solas",
+        "subhead": "Empezáis tres y acabáis nueve porque siempre cabe uno más.",
+        "body": "Nadie lo organiza: alguien escribe «estoy cerca», el camarero arrima otra mesa y aparece una silla que no era de ahí. Así se hacen las comidas que se alargan y los partidos que se ven con desconocidos. La mesa se estira sola; nosotros solo ponemos la cerveza.",
+        "cta": "Mira dónde comprarla",
+        "hashtags": [
+          "OpenYourWorld"
+        ],
+        "caption": "Aquí las mesas crecen solas.\n\nEmpieza siendo una comida de tres. Luego uno avisa de que anda cerca, alguien arrima la mesa de al lado, aparece una silla que claramente no era de esa terraza, y a la hora sois nueve personas que no se habrían sentado juntas jamás si no fuera por ese momento.\n\nEsto es lo que llamamos abrir mundo, y resulta que en Iberia ya lo hacíais sin que nadie os lo pidiera. Nosotros solo llevamos la cerveza y aprendemos.\n\n¿Cuál ha sido vuestra mesa más larga? Contádnoslo. Y mira en el enlace dónde comprarla para la próxima.\n\nDisfruta de Six de forma responsable. Contenido para mayores de 18 años.",
+        "communityReply": "La silla que aparece de la nada merece un monumento 😄 Contadnos cuántos acabasteis, que aquí el récord está muy disputado. Y como siempre: con moderación, sin prisa y volviendo a casa sin coger el coche.",
+        "imagePrompt": "A long improvised table made of two mismatched tables pushed together on a sunny courtyard terrace in Lisbon, nine adults between thirty and forty-five seated along both sides mid-meal, plates being passed and an extra chair clearly borrowed from another table, dappled light through a vine canopy, plain unbranded glassware and shared dishes, wide 28mm lens slightly above table height, warm midday tones, candid documentary photography, square 1:1 framing",
+        "kpis": [
+          "Alcance incremental y ratio de comentarios por 1.000 impresiones",
+          "Sentimiento positivo en comentarios y respuestas con anécdota propia",
+          "Notoriedad asistida de marca en el segmento comida de finde / partido en el bar"
+        ]
+      }
+    ],
+    "recordedAt": "2026-08-11T19:53:24.967Z"
+  }
+}
